@@ -1,0 +1,18 @@
+/*
+  ----------------
+  マンガ
+  ----------------
+*/
+
+.manga {
+
+  &__box {
+    .first {
+      margin-bottom: 60px;
+      @media #{$sp} {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+}

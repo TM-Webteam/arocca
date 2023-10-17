@@ -1,0 +1,17 @@
+<svg id="コンポーネント_87_1" data-name="コンポーネント 87 – 1" xmlns="http://www.w3.org/2000/svg" width="147.45" height="56.062" viewBox="0 0 147.45 56.062">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #093b77;
+      }
+      <![CDATA[@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");]]>
+      .cls-2 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: Noto Sans JP, NotoSansCJKjp-Regular, Noto Sans CJK JP;
+      }
+    </style>
+  </defs>
+  <path id="パス_9667" data-name="パス 9667" class="cls-1" d="M167.4-41.676H65.478v31.322H42.714l73.725,24.74,73.725-24.74H167.4Z" transform="translate(-42.714 41.676)"/>
+  <text id="こんな方には" class="cls-2" transform="translate(31.911 26.223)"><tspan x="0" y="0">こんな方には</tspan></text>
+</svg>

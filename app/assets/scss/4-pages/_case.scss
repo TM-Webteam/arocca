@@ -1,0 +1,96 @@
+/*
+  ----------------
+  実績・事例
+  ----------------
+*/
+
+.case {
+
+  .hero03 {
+    background: url("../img/case/bg-hero.webp") 50% / cover no-repeat;
+    height: 430px;
+    color: #fff;
+    @media #{$sp} {
+      height: auto;
+    }
+    .lead {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 40px;
+      @media #{$sp} {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+    }
+    .more {
+      max-width: none;
+      width: 560px;
+      padding: 20px;
+      font-size: 20px;
+      @media #{$sp} {
+        width: 85%;
+        padding: 15px;
+        font-size: 16px;
+      }
+      &:hover {
+        color: #19232d;
+        background: #fff;
+        &::before {
+          border-top: 3px solid #19232d;
+          border-right: 3px solid #19232d;
+        }
+      }
+    }
+  }
+
+  .reason02 {
+    background: #fff;
+  }
+
+  .voice {
+    background: #F5F5F5;
+    &__box {
+      &:not(:last-child) {
+        margin-bottom: 55px;
+        @media #{$sp} {
+          margin-bottom: 30px;
+        }
+      }
+      &--img {
+        width: 140px;
+      }
+      &--cmt {
+        width: calc(100% - 140px - 60px);
+        @media #{$sp} {
+          width: 100%;
+        }
+        &::before {
+          left: -30px;
+          width: 32px;
+          height: 36px;
+          background: url("../img/case/arrow.svg") 50% / contain no-repeat;
+        }
+        &.v2 {
+          &::before {
+            left: auto;
+            right: -30px;
+            background: url("../img/case/arrow-r.svg") 50% / contain no-repeat;
+          }
+        }
+        dt {
+          margin-bottom: 10px;
+        }
+        dd {
+  
+        }
+      }
+    }
+  }
+
+  .element {
+    background-color:rgba(28,131,209,0.05);
+  }
+
+  
+
+}

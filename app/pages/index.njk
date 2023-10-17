@@ -1,0 +1,244 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="top">
+
+  <section class="hero">
+    <div class="containers">
+      <h1 class="hero__sub">IT業界専門のエンジニア中途採用特化型<br class="sp-only">RPOサービス</h1>
+      <h1 class="ttl-primary">アイティ人事</h1>
+      <div class="hero__lead">採用戦略から採用者フォローまで<br class="pc-only">時間や手間のかかるほぼすべてを代行するサービスです。<br>IT企業のことも理解し、<br class="pc-only">かつエンジニアの視点も持っている採用のプロに<br class="pc-only">依頼することが可能です。</div>
+      <div class="flex fS aiC hero__btn">
+        <a href="/concurrent_post/" class="more core">採用を兼務されているご担当者様へ</a>
+        <div class="ctabtn">
+          <a href="/catalog/" class="more bgG core">
+            <div class="balloon"><span class="balloon__txt">エンジニア採用を強力にサポート！</span></div>
+            サービス資料ダウンロード
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reason02">
+    <div class="containers">
+      <h2 class="ttl-secondary">アイティ人事は多くの企業様に<br class="sp-only">選ばれています。</h2>
+      <ul class="flex jcC item">
+        <li class="item__box">
+          <h3 class="item__box--ttl">RPO導入企業数</h3>
+          <div class="item__box--txt"><span>12</span>　社</div>
+        </li>
+        <li class="item__box">
+          <h3 class="item__box--ttl">エンジニア採用成功人数</h3>
+          <div class="item__box--txt"><span>14</span>　名</div>
+        </li>
+        <li class="item__box">
+          <h3 class="item__box--ttl">エンジニアに強い媒体の取扱数</h3>
+          <div class="item__box--txt"><span>5</span>　媒体</div>
+        </li>
+      </ul>
+      <a href="/case/" class="more">実績・事例を見る</a>
+    </div>
+  </section>
+
+  <section class="video01">
+    <div class="containers">
+      <h2 class="ttl-secondary">1分でわかるアイティ人事</h2>
+      <div class="item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/J0X86yyTxEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-umein-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="card-type1 bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">エンジニア採用業務における、<br>“合否以外”のすべてを<br class="sp-only">お任せいただけます！</h2>
+      <ul class="flex gap30 card">
+        <li class="card__box">
+          <h3 class="card__box--ttl">施策の提案・決定を行うため<br>採用業務全体をご支援</h3>
+          <figure class="card__box--img"><img src="/assets/img/top/img-card-type01.jpg" alt="施策の提案・決定を行うため採用業務全体をご支援"></figure>
+          <div class="card__box--txt">タスク毎の業務指示を行う必要がなく、候補者の要件や業務内容、現状の状況をご共有いただければ課題を抽出し、施策を提案・実施いたします。</div>
+        </li>
+        <li class="card__box">
+          <h3 class="card__box--ttl">応募者を取りこぼさない<br>独自フォロー</h3>
+          <figure class="card__box--img"><img src="/assets/img/top/img-card-type02.jpg" alt="応募者を取りこぼさない独自フォロー"></figure>
+          <div class="card__box--txt">応募から面接設定までの時間を最短にするスピーディーな採用戦略や迅速な対応により結果生まれる面接到達率の向上施策を実施いたします。</div>
+        </li>
+        <li class="card__box">
+          <h3 class="card__box--ttl">貴社の状況に応じた<br>柔軟な対応</h3>
+          <figure class="card__box--img"><img src="/assets/img/top/img-card-type03.jpg" alt="貴社の状況に応じた柔軟な対応"></figure>
+          <div class="card__box--txt">普段ご利用されている採用管理システムに合わせた運用も可能。ご依頼は全体での伴走型でも一部の業務依頼でも可能。</div>
+        </li>
+      </ul>
+      <a href="/catalog/" class="more">サービス詳細を見る</a>
+    </div>
+  </section>
+
+  <section class="material">
+    <div class="containers">
+      <div class="flex aiC gap30 desc">
+        <figure class="desc__img"><img src="/assets/img/common/img-wp.png" alt="エンジニア採用特化RPO「アイティ人事」"></figure>
+        <summary class="desc__box">
+          <h3 class="desc__box--sub"><span class="marker">詳細・料金が3分で分かる！</span></h3>
+          <h2 class="desc__box--ttl">エンジニア採用特化RPO<br>「アイティ人事」</h2>
+          <a href="/catalog/" class="more bgG">サービス資料をダウンロード</a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="card-type5 bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">以下のようなニーズ・課題を持つ<br class="sp-only">企業様に活用されています。</h2>
+      <ul class="flex gap30 card">
+        <li class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/top/img-card-type5-1.jpg" alt="どんな媒体を選んだらよいかわからない"></figure>
+          <h3 class="card__box--ttl core">どんな媒体を選んだら<br>よいかわからない</h3>
+        </li>
+        <li class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/top/img-card-type5-2.jpg" alt="応募が集まらない"></figure>
+          <h3 class="card__box--ttl core">応募が集まらない</h3>
+        </li>
+        <li class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/top/img-card-type5-3.jpg" alt="採用業務を効率化したい"></figure>
+          <h3 class="card__box--ttl core">採用業務を効率化したい</h3>
+        </li>
+      </ul>
+      <a href="/concurrent_post/" class="more">採用を兼務されているご担当者様へ</a>
+    </div>
+  </section>
+
+  <section class="useful-wp">
+    <div class="containers">
+      <h2 class="ttl-secondary cW">お役立ち資料</h2>
+      <div class="flex gap30">
+        <a href="#" class="card">
+          <figure class="card__img"><img src="/assets/img/top/img-useful01.png" alt=""></figure>
+          <summary class="card__box">
+            <h3 class="card__box--ttl">資料タイトルが入ります。資料タイトルが入ります。</h3>
+            <div class="card__box--txt">資料の紹介文が入ります。資料の紹介文が入ります。資料の紹介文が入ります。資料の紹介文が入ります。資料の紹介文が入ります。資料の紹介文が入ります。資料の紹介文が入ります。</div>
+            <div class="more bgG small">資料をダウンロード</div>
+          </summary>
+        </a>
+        <a href="#" class="card">
+          <figure class="card__img"><img src="/assets/img/top/img-useful01.png" alt=""></figure>
+          <summary class="card__box">
+            <h3 class="card__box--ttl">資料タイトルが入ります。資料タイトルが入ります。資料タイト</h3>
+            <div class="card__box--txt">資料の紹介文が入ります。資料の紹介文が入ります。資料の紹介文が入ります。資料の紹介文が入ります。資料の紹介文が入ります。資料の紹介文が入ります。資料の紹介文が入ります。</div>
+            <div class="more bgG small">資料をダウンロード</div>
+          </summary>
+        </a>
+      </div>
+      <a href="/whitepaper/" class="more">お役立ち資料一覧を見る</a>
+    </div>
+  </section>
+
+  <section class="info bg-B">
+    <div class="containers">
+      <h2 class="ttl-secondary">会社情報</h2>
+      <div class="flex gap30 card">
+        <a href="/company/" class="flex aiC card__box">
+          <figure class="card__box--img"><img src="/assets/img/top/img-info01.svg" alt="企業情報"></figure>
+          <dl class="card__box--txt">
+            <dt><h3>企業情報</h3></dt>
+          </dl>
+        </a>
+        <a href="/strength/" class="flex aiC card__box">
+          <figure class="card__box--img"><img src="/assets/img/top/img-info02.svg" alt="ア・ロッカが選ばれる理由"></figure>
+          <dl class="card__box--txt">
+            <dt><h3>ア・ロッカが選ばれる理由</h3></dt>
+          </dl>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec-news">
+    <div class="containers">
+      <h2 class="ttl-secondary">お知らせ</h2>
+
+        <a href="#" class="sec-news__box">
+          <dl class="flex aiC gap30 sec-news__box--item">
+            <dt class="flex aiC gap20 sp-fS">
+              <time class="time">2022.9.20</time>
+            </dt>
+            <dd><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></dd>
+          </dl>
+        </a>
+        <a href="#" class="sec-news__box">
+          <dl class="flex aiC gap30 sec-news__box--item">
+            <dt class="flex aiC gap20 sp-fS">
+              <time class="time">2022.9.20</time>
+            </dt>
+            <dd><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></dd>
+          </dl>
+        </a>
+        <a href="#" class="sec-news__box">
+          <dl class="flex aiC gap30 sec-news__box--item">
+            <dt class="flex aiC gap20 sp-fS">
+              <time class="time">2022.9.20</time>
+            </dt>
+            <dd><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></dd>
+          </dl>
+        </a>
+        <a href="#" class="sec-news__box">
+          <dl class="flex aiC gap30 sec-news__box--item">
+            <dt class="flex aiC gap20 sp-fS">
+              <time class="time">2022.9.20</time>
+            </dt>
+            <dd><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></dd>
+          </dl>
+        </a>
+        <a href="#" class="sec-news__box">
+          <dl class="flex aiC gap30 sec-news__box--item">
+            <dt class="flex aiC gap20 sp-fS">
+              <time class="time">2022.9.20</time>
+            </dt>
+            <dd><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></dd>
+          </dl>
+        </a>
+      
+      <a href="/news/" class="more">お知らせ一覧を見る</a>
+    </div>
+  </section>
+
+  <section class="inquiry">
+    <div class="containers">
+      <h2 class="ttl-secondary cW non">アイティ人事に関する<br class="sp-only">お問合せ・お見積り</h2>
+      <h3 class="lead">エンジニア採用に関するお悩みから採用業務効率化のご相談まで、お気軽にご相談ください。</h3>
+      <a href="/contact/" class="more bgG">ご相談・お見積り</a>
+      <div class="flex jcC gap20 aiC inquiry__tel">
+        <a href="tel:0528554794" class="tel">052-855-4794</a>
+        <span>（平日：09:30～18:30）</span>
+      </div>
+      <summary class="flex aiC inquiry__box">
+        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
+        <div class="flex inquiry__box--btn">
+          <a href="/catalog/" class="more">サービス資料</a>
+          <a href="/whitepaper/" class="more">お役立ち資料</a>
+        </div>
+      </summary>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

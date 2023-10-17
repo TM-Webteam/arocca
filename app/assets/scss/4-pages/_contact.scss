@@ -1,0 +1,41 @@
+/*
+  ----------------
+  お問合せ・ご相談
+  ----------------
+*/
+
+.contact {
+
+  .hero03 {
+    height: 320px;
+    background: url("../img/contact/bg-hero.webp") 50% / cover no-repeat;
+    @media #{$sp} {
+      height: auto;
+    }
+    &__box {
+      width: 100%;
+      .lead {
+        font-size: 20px;
+        font-weight: normal;
+        color: #fff;
+        margin-bottom: 0;
+        @media #{$sp} {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .more {
+    max-width: none;
+    width: 560px;
+    @media #{$sp} {
+      width: 85%;
+    }
+  }
+
+  
+
+  
+
+}

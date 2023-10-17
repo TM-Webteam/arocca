@@ -1,0 +1,32 @@
+/*
+  ----------------
+  コラム詳細
+  ----------------
+*/
+
+.sng-column {
+
+  .single {
+    background: #fff;
+    padding: 40px 30px;
+    @media #{$sp} {
+      padding: 20px 15px;
+    }
+    &__toc {
+      background:rgba(28,131,209,0.05);
+      &--ttl {
+        color: #1C83D1;
+      }
+    }
+    &__ttl {
+      background: #1C83D1;
+    }
+    &__txt {
+      li {
+        list-style: disc;
+        margin-left: 1.5em;
+      }
+    }
+  }
+
+}

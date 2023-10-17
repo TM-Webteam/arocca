@@ -1,0 +1,106 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main>
+
+  <!-- ニュース一覧 -->
+  <section class="arc-news">
+    <div class="containers">
+      <h1 class="ttl-secondary non">お知らせ</h1>
+      <div class="item">
+
+        <a href="#" class="item__box">
+          <div class="flex gap20 fS aiC inherit item__box--date">
+            <time class="time">2021.3.8</time>
+            <span class="cat">お知らせ</span>
+          </div>
+          <summary class="item__box--ttl"><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
+        </a>
+
+        <a href="#" class="item__box">
+          <div class="flex gap20 fS aiC inherit item__box--date">
+            <time class="time">2021.3.8</time>
+            <span class="cat">お知らせ</span>
+          </div>
+          <summary class="item__box--ttl"><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
+        </a>
+
+        <a href="#" class="item__box">
+          <div class="flex gap20 fS aiC inherit item__box--date">
+            <time class="time">2021.3.8</time>
+            <span class="cat">お知らせ</span>
+          </div>
+          <summary class="item__box--ttl"><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
+        </a>
+
+        <a href="#" class="item__box">
+          <div class="flex gap20 fS aiC inherit item__box--date">
+            <time class="time">2021.3.8</time>
+            <span class="cat">お知らせ</span>
+          </div>
+          <summary class="item__box--ttl"><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
+        </a>
+
+        <a href="#" class="item__box">
+          <div class="flex gap20 fS aiC inherit item__box--date">
+            <time class="time">2021.3.8</time>
+            <span class="cat">お知らせ</span>
+          </div>
+          <summary class="item__box--ttl"><h3>お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。</h3></summary>
+        </a>
+				
+			</div>
+      <nav class="pagination">
+        <div class="nav-links">
+          <a class="prev page-numbers" href="#"><span></span></a>
+          <a class="page-numbers" href="#">1</a>
+          <span class="page-numbers current">2</span>
+          <a class="page-numbers" href="#">3</a>
+          <a class="page-numbers" href="#">4</a>
+          <a class="page-numbers" href="#">5</a>
+          <a class="next page-numbers" href="#"><span></span></a>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section class="inquiry">
+    <div class="containers">
+      <h2 class="ttl-secondary cW non">アイティ人事に関する<br class="sp-only">お問合せ・お見積り</h2>
+      <h3 class="lead">エンジニア採用に関するお悩みから採用業務効率化のご相談まで、お気軽にご相談ください。</h3>
+      <a href="/contact/" class="more bgG">ご相談・お見積り</a>
+      <div class="flex jcC gap20 aiC inquiry__tel">
+        <a href="tel:0528554794" class="tel">052-855-4794</a>
+        <span>（平日：09:30～18:30）</span>
+      </div>
+      <summary class="flex aiC inquiry__box">
+        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
+        <div class="flex inquiry__box--btn">
+          <a href="/catalog/" class="more">サービス資料</a>
+          <a href="/whitepaper/" class="more">お役立ち資料</a>
+        </div>
+      </summary>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

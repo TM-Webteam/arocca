@@ -1,0 +1,83 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="company">
+
+  <section class="hero03 core">
+    <div class="containers">
+      <div class="hero03__box">
+        <h1 class="ttl-primary-lower">企業情報</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="history">
+    <div class="containers">
+      <dl class="flex fS history__desc">
+        <dt>社名</dt>
+        <dd>ア・ロッカ株式会社</dd>
+        <dt>設立</dt>
+        <dd>令和3（2021）年4月5日</dd>
+        <dt>所在地</dt>
+        <dd>〒460-0003 愛知県名古屋市中区錦1丁目5－11名古屋伊藤忠ビル４Ｆ</dd>
+        <dt>資本金</dt>
+        <dd>3,000,000円</dd>
+        <dt>代表者</dt>
+        <dd>藤原靖也</dd>
+        <dt>業種</dt>
+        <dd>採用コンサルティング・ソフトウェア業</dd>
+        <dt>事業内容</dt>
+        <dd>求人、採用活動及び人事に関するコンサルティング業務<br>
+          各種アウトソーシング及びその受託に関する事業<br>
+          デジタルコンテンツの企画、制作、販売及び配信<br>
+          ＷＥＢコンサルティング業務<br>
+          各種経営に関するサポート業務<br>
+          コンピュータシステムを利用した情報処理及び情報提供サービス<br>
+          コンピュータソフトの開発及び販売<br>
+          各種物品の販売<br>
+          労働者派遣事業<br>
+          前各号に附帯関連する一切の業務</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section class="inquiry">
+    <div class="containers">
+      <h2 class="ttl-secondary cW non">アイティ人事に関する<br class="sp-only">お問合せ・お見積り</h2>
+      <h3 class="lead">エンジニア採用に関するお悩みから採用業務効率化のご相談まで、お気軽にご相談ください。</h3>
+      <a href="/contact/" class="more bgG">ご相談・お見積り</a>
+      <div class="flex jcC gap20 aiC inquiry__tel">
+        <a href="tel:0528554794" class="tel">052-855-4794</a>
+        <span>（平日：09:30～18:30）</span>
+      </div>
+      <summary class="flex aiC inquiry__box">
+        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
+        <div class="flex inquiry__box--btn">
+          <a href="/catalog/" class="more">サービス資料</a>
+          <a href="/whitepaper/" class="more">お役立ち資料</a>
+        </div>
+      </summary>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

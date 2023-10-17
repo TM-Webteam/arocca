@@ -1,0 +1,67 @@
+/*
+  ----------------
+  company
+  ----------------
+*/
+
+.company {
+  
+  .hero03 {
+    height: 250px;
+    background: url("../img/company/bg-hero.webp") 50% / cover no-repeat;
+    @media #{$sp} {
+      height: auto;
+    }
+    &__box {
+      width: 100%;
+      .ttl-primary-lower {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .history {
+    
+    &__desc {
+      dt,dd {
+        padding: 10px 30px;
+        border: 1px solid #DDDDDD;
+        @media #{$sp} {
+          padding: 5px 15px;
+        }
+      }
+      dt {
+        width: 21%;
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #F4F4F4;
+        border-right: none;
+        @media #{$sp} {
+          width: 100%;
+          font-size: 16px;
+          border-right: 1px solid #DDDDDD;
+          border-bottom: none;
+        }
+        &:not(:last-of-type) {
+          border-bottom: none;
+        }
+      }
+      dd {
+        width: calc(100% - 21%);
+        @media #{$sp} {
+          width: 100%;
+        }
+        &:not(:last-child) {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+
+}
+

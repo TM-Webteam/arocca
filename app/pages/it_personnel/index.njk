@@ -1,0 +1,254 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="it_personnel">
+
+  <section class="hero-lower core">
+    <div class="containers">
+      <div class="hero-lower__box">
+        <div class="hero-lower__box--sub">採用業務における“合否以外”のすべてを<br class="sp-only">お任せいただけます！</div>
+        <h1 class="ttl-primary">エンジニア特化採用RPO<br class="sp-only">「アイティ人事」</h1>
+        <ul class="flex jcC gap20 hero-lower__box--effect">
+          <li>幅広い媒体<br>エージェント提案力</li>
+          <li>エンジニア採用への<br>独自ノウハウ</li>
+          <li>カスタム性のある<br>RPO</li>
+        </ul>
+        <div class="ctabtn">
+          <a href="/catalog/" class="more bgG core">
+            <div class="balloon"><span class="balloon__txt">エンジニア採用を強力にサポート！</span></div>
+            サービス資料ダウンロード
+          </a>
+          <summary class="tooltip">お申込み後、リアルタイムでお送りいたします！</summary>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="anc">
+    <div class="containers">
+      <ul class="flex jcC gap30 inherit anc__box">
+        <li><a href="#service">サービス概要</a></li>
+        <li><a href="#features">特長</a></li>
+        <li><a href="#merit">導入メリット</a></li>
+        <li><a href="#reason">選ばれる理由</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="service" class="sec01 sec-bt">
+    <div class="containers">
+      <h2 class="ttl-secondary rack"><small>アイティ人事とは</small>「唯一無二の人事をアイティに」</h2>
+      <div class="flex aiC sp-reverse">
+        <dl class="sec01__box">
+          <dt><h3>採用戦略から採用者フォローまで、時間や手間のかかるほぼすべてを代行するサービスです。</h3></dt>
+          <dd>アイティ人事はIT 企業に専門特化した「採用プロ集団」です。<br>企業の方には合否など判断することのみお願いしております。<br>IT企業のことも理解し、かつエンジニアの視点も持っている採用のプロに依頼することが可能です。</dd>
+        </dl>
+        <figure class="sec01__img"><img src="/assets/img/it_personnel/img01.jpg" alt="採用戦略から採用者フォローまで、時間や手間のかかるほぼすべてを代行するサービスです。"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="card-type1 sec-bt">
+    <div class="containers">
+      <h2 class="ttl-secondary rack"><small>特長と支援内容</small>エンジニア採用に特化した<br>独自ノウハウをカスタムしてご提供しています。</h2>
+      <ul class="flex gap30 card">
+        <li class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/it_personnel/img02.svg" alt="エンジニア採用に強い媒体・手法の提案力"></figure>
+          <h3 class="card__box--ttl">エンジニア採用に強い<br>媒体・手法の提案力</h3>
+          <div class="card__box--txt">代表自らがソフトウェア会社で中途採用全般を担当し、採用する側を経験したこともあり、マイナビやエン・ジャパンその他数多くの媒体の傾向・得手不得手などを熟知しております。</div>
+        </li>
+        <li class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/it_personnel/img03.svg" alt="IT業界を熟知した独自の採用ノウハウ"></figure>
+          <h3 class="card__box--ttl">IT業界を熟知した<br>独自の採用ノウハウ</h3>
+          <div class="card__box--txt">ソフトウェアに関して最新のスキル事情を熟知しており、転職希望者の心情・動線・将来のビジョンに沿った文面構成やアプローチ、フォローなどが可能です。</div>
+        </li>
+        <li class="card__box">
+          <figure class="card__box--img"><img src="/assets/img/it_personnel/img04.svg" alt="貴社の状況に合わせたカスタム性のあるRPO"></figure>
+          <h3 class="card__box--ttl">貴社の状況に合わせた<br>カスタム性のあるRPO</h3>
+          <div class="card__box--txt">普段ご利用されている採用管理システムに合わせた運用に対応、ご依頼内容は採用業務全般での伴走型でも、一部の業務依頼でも可能です。</div>
+        </li>
+      </ul>
+      <ul class="flex aiC gap30 work">
+        <li>媒体・手法の提案</li>
+        <li>応募者対応<br class="pc-only">（内定後フォロー含む）</li>
+        <li>独自スカウトメール施策</li>
+        <li>面接など日程調整の代行</li>
+        <li>採用＋マーケティング思考<br class="pc-only">での提案</li>
+        <li>適時オンラインによる<br class="pc-only">情報共有MTG</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="merit" class="card-type1 v2 sec-bt">
+    <div class="containers">
+      <h2 class="ttl-secondary rack"><small>導入メリット</small>エンジニア採用業務における、<br>“合否以外”のすべてをお任せいただけます！</h2>
+      <ul class="flex gap30 card">
+        <li class="card__box">
+          <h3 class="card__box--ttl">施策の提案・決定を行うため<br>採用業務全体をご支援</h3>
+          <figure class="card__box--img"><img src="/assets/img/it_personnel/img02.jpg" alt="施策の提案・決定を行うため採用業務全体をご支援"></figure>
+          <div class="card__box--txt">タスク毎の業務指示を行う必要がなく、候補者の要件や業務内容、現状の状況をご共有いただければ課題を抽出し、施策を提案・実施いたします。</div>
+        </li>
+        <li class="card__box">
+          <h3 class="card__box--ttl">応募者を取りこぼさない<br>独自フォロー</h3>
+          <figure class="card__box--img"><img src="/assets/img/it_personnel/img03.jpg" alt="応募者を取りこぼさない独自フォロー"></figure>
+          <div class="card__box--txt">応募から面接設定までの時間を最短にするスピーディーな採用戦略や迅速な対応により結果生まれる面接到達率の向上施策を実施いたします。</div>
+        </li>
+        <li class="card__box">
+          <h3 class="card__box--ttl">貴社の状況に応じた<br>柔軟な対応</h3>
+          <figure class="card__box--img"><img src="/assets/img/it_personnel/img04.jpg" alt="貴社の状況に応じた柔軟な対応"></figure>
+          <div class="card__box--txt">普段ご利用されている採用管理システムに合わせた運用も可能。ご依頼は全体での伴走型でも一部の業務依頼でも可能。</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="material">
+    <div class="containers">
+      <div class="flex aiC gap30 desc">
+        <figure class="desc__img"><img src="/assets/img/common/img-wp.png" alt="エンジニア採用特化RPO「アイティ人事」"></figure>
+        <summary class="desc__box">
+          <h3 class="desc__box--sub">詳細・料金が3分で分かる！</h3>
+          <h2 class="desc__box--ttl">エンジニア採用特化RPO「アイティ人事」</h2>
+          <a href="/catalog/" class="more bgG">サービス資料をダウンロード</a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="planning">
+    <div class="containers">
+      <h2 class="ttl-secondary rack"><small>プラン</small>貴社の課題感や規模感に合わせて<br class="sp-only">柔軟に対応可能です</h2>
+      <div class="lead">いずれのプランも最低契約期間「3ヶ月」とさせていただいております。</div>
+      <ul class="flex gap30 card">
+        <li class="card__wrap">
+          <h3 class="card__wrap--ttl">アドバイスプラン</h3>
+          <summary class="card__box">
+            <div class="card__box--ttl"><small>アドバイスのみ</small><br><span>10 </span>万円/月~</div>
+            <ul class="card__box--txt">
+              <li>月1回/1時間のMTG</li>
+              <li>メール・電話は無制限</li>
+              <li>採用市場などの情報の共有</li>
+              <li>スカウト文面・求人票の作成</li>
+            </ul>
+          </summary>
+        </li>
+        <li class="card__wrap">
+          <h3 class="card__wrap--ttl">業務代行プラン</h3>
+          <summary class="card__box">
+            <div class="card__box--ttl"><small>採用業務代行のみ</small><br><span>10 </span>万円/月~</div>
+            <ul class="card__box--txt">
+              <li>スカウト送信<small>※1</small></li>
+              <li>面接日程調整</li>
+              <li>媒体管理</li>
+              <li>数値報告</li>
+            </ul>
+          </summary>
+        </li>
+        <li class="card__wrap">
+          <h3 class="card__wrap--ttl">フルサポートプラン</h3>
+          <summary class="card__box">
+            <div class="card__box--ttl"><small>アドバイス + 業務代行</small><br><span>20 </span>万円/月~</div>
+            <ul class="card__box--txt">
+              <li>スカウト文面作成＆送信</li>
+              <li>求人票作成・改善</li>
+              <li>面接日程調整</li>
+              <li>数値・振り返りMTG</li>
+            </ul>
+          </summary>
+        </li>
+      </ul>
+      <div class="note">※1 文面はご用意ください<br>※ 税抜き表示となっております。<br>※ 複数媒体・複数職種を代行など、工数が多く見込まれる際は別途、お見積もりさせていただきます。</div>
+      <div class="ctabtn">
+        <a href="/contact/" class="more bgG core">
+          <div class="balloon"><span class="balloon__txt">貴社に最適なプランをご提案します</span></div>
+          ご相談・お見積り
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="reason" class="element sec-bt">
+    <div class="containers">
+      <h2 class="ttl-secondary rack"><small>選ばれる理由</small>採用活動作業を効率化することで本来の業務に集中でき、<br>優秀な人材へのアプローチ、欲しい人材獲得へ繋がります。</h2>
+      <ul class="flex gap30 item">
+        <li class="item__box">
+          <div class="item__box--num core">1</div>
+          <h3 class="item__box--ttl">「採用戦略」から<br>トータルサポート</h3>
+          <figure class="item__box--img"><img src="/assets/img/common/img-element01.jpg" alt="「採用戦略」からトータルサポート"></figure>
+        </li>
+        <li class="item__box">
+          <div class="item__box--num core">2</div>
+          <h3 class="item__box--ttl">採用担当者の手間を<br>削減できます！</h3>
+          <figure class="item__box--img"><img src="/assets/img/common/img-element02.jpg" alt="採用担当者の手間を削減できます！"></figure>
+        </li>
+        <li class="item__box">
+          <div class="item__box--num core">3</div>
+          <h3 class="item__box--ttl">狙ったターゲットに<br>確実に訴求！</h3>
+          <figure class="item__box--img"><img src="/assets/img/common/img-element03.jpg" alt="狙ったターゲットに確実に訴求！"></figure>
+        </li>
+      </ul>
+      <a href="/strength/" class="more">詳しくはこちら</a>
+    </div>
+  </section>
+
+  <section class="reason02">
+    <div class="containers">
+      <h2 class="ttl-secondary">アイティ人事は多くの企業様に<br class="sp-only">選ばれています。</h2>
+      <ul class="flex jcC item">
+        <li class="item__box">
+          <h3 class="item__box--ttl">RPO導入企業数</h3>
+          <div class="item__box--txt"><span>12</span>　社</div>
+        </li>
+        <li class="item__box">
+          <h3 class="item__box--ttl">エンジニア採用成功人数</h3>
+          <div class="item__box--txt"><span>14</span>　名</div>
+        </li>
+        <li class="item__box">
+          <h3 class="item__box--ttl">エンジニアに強い媒体の取扱数</h3>
+          <div class="item__box--txt"><span>5</span>　媒体</div>
+        </li>
+      </ul>
+      <a href="/case/" class="more">実績・事例を見る</a>
+    </div>
+  </section>
+
+  <section class="inquiry">
+    <div class="containers">
+      <h2 class="ttl-secondary cW non">アイティ人事に関する<br class="sp-only">お問合せ・お見積り</h2>
+      <h3 class="lead">エンジニア採用に関するお悩みから採用業務効率化のご相談まで、お気軽にご相談ください。</h3>
+      <a href="/contact/" class="more bgG">ご相談・お見積り</a>
+      <div class="flex jcC gap20 aiC inquiry__tel">
+        <a href="tel:0528554794" class="tel">052-855-4794</a>
+        <span>（平日：09:30～18:30）</span>
+      </div>
+      <summary class="flex aiC inquiry__box">
+        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
+        <div class="flex inquiry__box--btn">
+          <a href="/catalog/" class="more">サービス資料</a>
+          <a href="/whitepaper/" class="more">お役立ち資料</a>
+        </div>
+      </summary>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

@@ -1,0 +1,136 @@
+/*
+  ----------------
+  採用を兼務しているご担当者様へ
+  ----------------
+*/
+
+.concurrent_post {
+
+  .hero03 {
+    background: url("../img/concurrent_post/bg-hero.webp") 50% / cover no-repeat;
+    height: 500px;
+    color: #fff;
+    @media #{$sp} {
+      height: auto;
+    }
+    .lead {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 40px;
+      @media #{$sp} {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      span {
+        display: inline-block;
+        font-size: 24px;
+        line-height: 1.5;
+        background-color:rgba(0,80,175,0.5);
+        padding: 0 10px;
+        margin-right: 5px;
+        @media #{$sp} {
+          font-size: 18px;
+        }
+      }
+    }
+    .speech {
+      span {
+        &::before {
+          bottom: 20px;
+          width: 40px;
+          @media #{$sp} {
+            width: 30px;
+            bottom: 10px;
+          }
+        }
+        &::after {
+          bottom: 20px;
+          width: 40px;
+          @media #{$sp} {
+            width: 30px;
+            bottom: 10px;
+          }
+        }
+      }
+    }
+    .more {
+      max-width: none;
+      width: 560px;
+      padding: 20px;
+      font-size: 20px;
+      @media #{$sp} {
+        width: 85%;
+        padding: 15px;
+        font-size: 16px;
+      }
+      &:hover {
+        background: #fff;
+        color: #19232d;
+        &::before {
+          border-top: 3px solid #19232d;
+          border-right: 3px solid #19232d;
+        }
+      }
+    }
+  }
+
+  .card-type5 {
+  
+    .card {
+      margin-bottom: 40px;
+      @media #{$sp} {
+        margin-bottom: 20px;
+      }
+      &__box {
+        display: block;
+        position: relative;
+        @media #{$sp} {
+          margin-bottom: 40px;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: -30px;
+          margin: auto;
+          width: 10px;
+          height: 10px;
+          border: 5px solid;
+          border-color:  transparent transparent #1C83D1 #1C83D1;
+          transform: rotate(-45deg);
+          transition: all .3s;
+        }
+        &--img {
+          overflow: hidden;
+          img {
+            transition: all .3s;
+          }
+        }
+        &:hover {
+          opacity: 1;
+          &::before {
+            bottom: -40px;
+          }
+          .card__box--img img {
+            transform:scale(1.1,1.1);
+          }
+        }
+        &--ttl {
+          background: #222;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .element {
+    background-color:rgba(28,131,209,0.05);
+  }
+
+  .reason02 {
+    background: #fff;
+  }
+
+}
+

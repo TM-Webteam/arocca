@@ -1,0 +1,58 @@
+/*
+  ----------------
+  お役立ち資料一覧
+  ----------------
+*/
+
+.arc-whitepaper {
+
+  .hero03 {
+    background: url("../img/whitepaper/bg-hero.webp") 50% / cover no-repeat;
+    height: 320px;
+    color: #fff;
+    @media #{$sp} {
+      height: auto;
+    }
+    .lead {
+      font-size: 20px;
+      font-weight: normal;
+      margin-bottom: 0;
+      @media #{$sp} {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .latest {
+    background: #F4F4F4;
+    
+    .containers {
+      padding: 70px 30px 0;
+      @media #{$sp} {
+        padding: 35px 15px 0;
+      }
+    }
+  
+    .item {
+      box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+      border-top: 7px solid #1C83D1;
+      @media #{$sp} {
+        border-top: 4px solid #1C83D1;
+      }
+      &__img img {
+        aspect-ratio: 4 / 3;
+        object-fit: contain;
+      }
+      &__box {
+        &--cat {
+          .cat {
+            background: #fff;
+            border: 1px solid #1C83D1;
+            color: #1C83D1;
+          }
+        }
+      }
+    }
+  }
+
+}

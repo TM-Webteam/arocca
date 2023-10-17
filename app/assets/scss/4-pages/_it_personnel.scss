@@ -1,0 +1,423 @@
+/*
+  ----------------
+  アイティ人事
+  ----------------
+*/
+
+.it_personnel {
+
+  .hero-lower {
+    height: 620px;
+    text-align: center;
+    font-weight: bold;
+    background: url("../img/it_personnel/bg-hero.webp") 50% / cover no-repeat;
+    @media #{$sp} {
+      background: url("../img/it_personnel/bg-hero-sp.webp") 50% / cover no-repeat;
+      height: auto;
+    }
+    &__box {
+      width: 65%;
+      @media #{$sp} {
+        width: 100%;
+      }
+      &--sub {
+        font-size: 20px;
+        margin-bottom: 20px;
+        @media #{$sp} {
+          font-size: 16px;
+          margin-bottom: 15px;
+        }
+      }
+      .ttl-primary {
+        color: #000;
+        font-size: 36px;
+        @media #{$sp} {
+          font-size: 20px;
+        }
+      }
+      &--img {
+        width: 85%;
+        margin: 0 auto 30px;
+      }
+      &--effect {
+        margin-bottom: 60px;
+        @media #{$sp} {
+          margin-bottom: 40px;
+        }
+        &.gap20 {
+          @media #{$sp} {
+            gap: 0;
+            justify-content: space-between;
+          }
+        }
+        li {
+          min-width: 180px;
+          box-shadow: 0 0 5px rgba(0,0,0,0.2);
+          padding: 10px;
+          background-color: #fff;
+          border-radius: 5px;
+          border-top: 7px solid #1C83D1;
+          @media #{$sp} {
+            min-width: 0;
+            width: calc(100% / 3 - 5px);
+            font-size: 10px;
+          }
+        }
+      }
+      .more {
+        font-size: 20px;
+        padding: 20px;
+        @media #{$sp} {
+          font-size: 16px;
+          padding: 15px;
+        }
+      }
+      .ctabtn {
+        @media #{$sp} {
+          margin: 0 auto;
+          width: 100%;
+        }
+        .more {
+          font-size: 20px;
+          @media #{$sp} {
+            font-size: 14px;
+          }
+          &:hover {
+            color: #19232d;
+            background: #fff;
+            &:before {
+              border-top: 3px solid #19232d;
+              border-right: 3px solid #19232d;
+            }
+            .balloon__txt {
+              background: #19232d;
+              color: #fff;
+              border: 1px solid #19232d;
+              &::before,&::after {
+                border-color: #19232d rgba(0,0,0,0) rgba(0,0,0,0);
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+
+  .sec01 {
+    background: url("../img/common/bg-deco-l.png") 0 50% / 500px auto no-repeat;
+  }
+
+  .card-type1 {
+    background: url("../img/common/bg-deco-r.png") 100% 70px / 500px auto no-repeat;
+    &.v2 {
+      background: url("../img/common/bg-deco-l.png") 0 70px / 500px auto no-repeat;
+    }
+    .card {
+      &__box {
+        background: #F8F8F8;
+      }
+    }
+    .work {
+      li {
+        width: calc(100% / 3 - 20px);
+        padding-left: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.5;
+        position: relative;
+        @media #{$sp} {
+          font-size: 16px;
+          width: 100%;
+          padding-left: 40px;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          margin: auto;
+          width: 57px;
+          height: 57px;
+          background: url("../img/it_personnel/icon01.svg") 50% / contain no-repeat;
+          @media #{$sp} {
+            width: 30px;
+            height: 30px;
+          }
+        }
+        &:nth-child(2) {
+          &::before {
+            background: url("../img/it_personnel/icon02.svg") 50% / contain no-repeat;
+          }
+        }
+        &:nth-child(3) {
+          &::before {
+            background: url("../img/it_personnel/icon03.svg") 50% / contain no-repeat;
+          }
+        }
+        &:nth-child(4) {
+          &::before {
+            background: url("../img/it_personnel/icon04.svg") 50% / contain no-repeat;
+          }
+        }
+        &:nth-child(5) {
+          &::before {
+            background: url("../img/it_personnel/icon05.svg") 50% / contain no-repeat;
+          }
+        }
+        &:nth-child(6) {
+          &::before {
+            background: url("../img/it_personnel/icon06.svg") 50% / contain no-repeat;
+          }
+        }
+      }
+    }
+  }
+
+  .plan {
+    background: #F3F9FD;
+    .card {
+      &__box {
+        width: calc(100% / 3 - 20px);
+        margin-bottom: 70px;
+        @media #{$sp} {
+          width: 100%;
+          margin-bottom: 30px;
+        }
+        &--be {
+          border: 1px solid #093B77;
+          margin: 0 auto 55px;
+          width: 85%;
+          position: relative;
+          padding: 30px;
+          height: 185px;
+          @media #{$sp} {
+            height: auto;
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -45px;
+            margin: auto;
+            width: 147px;
+            height: 56px;
+            background: url("../img/it_personnel/arrow.svg") 50% / contain no-repeat;
+          }
+          li {
+            padding-left: 20px;
+            position: relative;
+            &::before {
+              content: "";
+              width: 17px;
+              height: 15px;
+              background: url("../img/it_personnel/check.svg") 50% / contain no-repeat;
+              position: absolute;
+              top: 6px;
+              left: 0;
+            }
+          }
+        }
+        &--af {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background: #fff;
+          box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+          padding: 30px;
+          color: #093B77;
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 1.5;
+          height: 188px;
+          @media #{$sp} {
+            height: auto;
+          }
+          &.ha {
+            height: 93px;
+            @media #{$sp} {
+              height: auto;
+            }
+          }
+          ul {
+            li {
+              padding-left: 20px;
+              position: relative;
+              &::before {
+                content: "";
+                width: 12px;
+                height: 12px;
+                background: #093B77;
+                border-radius: 50%;
+                position: absolute;
+                top: 9px;
+                left: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    .more {
+      font-size: 20px;
+      padding: 20px;
+      @media #{$sp} {
+        font-size: 16px;
+        padding: 15px;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .element {
+    background: url("../img/common/bg-deco-r.png") 100% 70px / 500px auto no-repeat;
+  }
+
+  .planning {
+    background-color:rgba(28,131,209,0.05);
+    .card {
+      margin-bottom: 30px;
+      @media #{$sp} {
+        margin-bottom: 15px;
+      }
+      &__wrap {
+        // display: block;
+        width: calc(100% / 3 - 20px);
+        box-shadow: 0 0 10px rgba(0,0,0,0.11);
+        background: #fff;
+        @media #{$sp} {
+          width: 100%;
+          &:not(:last-child) {
+            margin-bottom: 15px;
+          }
+        }
+        &:last-child {
+          position: relative;
+          &::before {
+            content: "";
+            position: absolute;
+            top: -45px;
+            right: -35px;
+            background: url("../img/it_personnel/img-best.png") 50% / contain no-repeat;
+            width: 90px;
+            height: 90px;
+            @media #{$sp} {
+              width: 70px;
+              height: 70px;
+              top: -30px;
+              right: -15px;
+            }
+          }
+          .card__wrap--ttl {
+            background-image: linear-gradient(90deg, #182878, #1E4594);
+          }
+        }
+        &--ttl {
+          font-size: 20px;
+          font-weight: bold;
+          color: #fff;
+          text-align: center;
+          background-image: linear-gradient(90deg, #093B77, #075794);
+          padding: 15px;
+          @media #{$sp} {
+            font-size: 16px;
+          }
+        }
+      }
+      &__box {
+        padding: 25px;
+        background: #fff;
+        @media #{$sp} {
+          padding: 15px;
+        }
+        &--ttl {
+          color: #093B77;
+          font-size: 26px;
+          font-weight: bold;
+          text-align: center;
+          margin-bottom: 20px;
+          span {
+            font-size: 70px;
+            line-height: 1;
+            font-family: "futura-pt-bold", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+          }
+          small {
+            font-size: 16px;
+            font-weight: 500;
+            color: #000;
+            display: inline-block;
+          }
+          @media #{$sp} {
+            font-size: 14px;
+            margin-bottom: 15px;
+          }
+        }
+        &--txt {
+          padding: 20px;
+          border: 1px solid #1C83D1;
+          @media #{$sp} {
+            padding: 15px;
+          }
+          li {
+            position: relative;
+            margin-left: 1.5em;
+            &::before {
+              content: "";
+              width: 17px;
+              height: 15px;
+              background: url("../img/it_personnel/check.svg") 50% / contain no-repeat;
+              position: absolute;
+              top: 6px;
+              left: -1.5em;
+            }
+            small {
+              font-size: 12px;
+              vertical-align: top;
+            }
+            &.non {
+              margin-left: 0;
+              &:first-child {
+                margin-bottom: 20px;
+                @media #{$sp} {
+                  margin-bottom: 15px;
+                }
+                &::after {
+                  content: "＋";
+                  position: absolute;
+                  left: 40%;
+                  bottom: -25px;
+                  @media #{$sp} {
+                    bottom: -20px;
+                  }
+                }
+              }
+              &::before {
+                content: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    .ctabtn {
+      margin-top: 80px;
+      @media #{$sp} {
+        margin-top: 40px;
+      }
+    }
+    .more {
+      font-size: 20px;
+      padding: 20px;
+      @media #{$sp} {
+        font-size: 16px;
+        padding: 15px;
+        margin-top: 30px;
+      }
+    }
+  }
+
+}

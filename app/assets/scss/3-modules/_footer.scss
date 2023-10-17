@@ -1,0 +1,124 @@
+/*
+  ----------------
+  Footer
+  ----------------
+*/
+
+
+footer {
+
+  .containers.nav {
+    padding: 50px 30px 70px;
+    @media #{$sp} {
+      padding: 20px 15px 30px;
+    }
+  }
+  .nav {
+    .address {
+      font-size: 14px;
+      margin-bottom: 40px;
+      @media #{$sp} {
+        font-size: 12px;
+        margin-bottom: 20px;
+      }
+    }
+    &__img {
+      margin-bottom: 30px;
+      width: 190px;
+      @media #{$sp} {
+        margin-bottom: 15px;
+        width: 100px;
+      }
+    }
+    &__box {
+      width: calc(100% / 3 - 20px);
+      font-size: 12px;
+      @media #{$sp} {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      &--ttl {
+        font-weight: bold;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #DDDDDD;
+        margin-bottom: 20px;
+        @media #{$sp} {
+          margin-bottom: 15px;
+        }
+      }
+      &--list {
+        li {
+          margin-bottom: 10px;
+          padding-left: 1.5em;
+          position: relative;
+          &::before {
+            content: "";
+            position: absolute;
+            top: 8px;
+            left: 0;
+            width: 4px;
+            height: 4px;
+            border: 1px solid;
+            border-color: #000 #000 transparent transparent;
+            transform: rotate(45deg);
+          }
+          a {
+            &:hover {
+              opacity: 1;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  .aside {
+    background: #222;
+    color: #fff;
+    padding: 30px;
+    font-size: 14px;
+    @media #{$sp} {
+      font-size: 12px;
+      padding: 15px;
+    }
+    &__nav {
+      margin-bottom: 15px;
+      @media #{$sp} {
+        margin-bottom: 10px;
+      }
+      li {
+        padding: 0 30px;
+        position: relative;
+        @media #{$sp} {
+          padding: 0 10px;
+        }
+        &:not(:last-child) {
+          &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            height: 10px;
+            width: 1px;
+            background: #fff;
+          }
+        }
+        a {
+          &:hover {
+            opacity: 1;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    &__copy {
+      text-align: center;
+      @media #{$sp} {
+        font-size: 10px;
+      }
+    }
+  }
+  
+}

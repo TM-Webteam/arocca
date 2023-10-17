@@ -1,0 +1,30 @@
+/*
+  ----------------
+  お役立ち資料詳細
+  ----------------
+*/
+
+.sng-whitepaper {
+
+  .article__toc {
+    border: 1px solid #1C83D1;
+    &--ttl {
+      color: #1C83D1;
+    }
+  }
+
+  .form__ttl {
+    background: #1C83D1;
+    color: #fff;
+  }
+
+  .more {
+    width: 100%;
+    margin-bottom: 20px;
+    @media #{$sp} {
+      width: 85%;
+      margin-bottom: 15px;
+    }
+  } 
+
+}

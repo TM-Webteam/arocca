@@ -1,0 +1,72 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main>
+
+  <!-- ニュース詳細 -->
+  <section class="news-single">
+    <div class="containers">
+
+      <div class="flex gap20 fS aiC inherit news-single__date">
+        <time class="time">2021.3.8</time>
+        <span class="cat">カテゴリ名</span>
+      </div>
+
+      <h1 class="news-single__h1">お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。お知らせタイトルが入ります。〈h1〉</h1>
+
+      <ul class="flex gap20 fS aiC sns">
+        <li><a href="#"><img src="/assets/img/common/in.svg" alt="LinkedIn"></a></li>
+        <li><a href="#"><img src="/assets/img/common/fb.svg" alt="Facebook"></a></li>
+        <li><a href="#"><img src="/assets/img/common/tw.svg" alt="Twitter"></a></li>
+      </ul>
+
+      <div class=" news-single__lead">リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。リード文が入ります。</div>
+
+      <div class=" news-single__conts">
+        <p>お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。</p>
+        <p>お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。お知らせ本文が入ります。</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="inquiry">
+    <div class="containers">
+      <h2 class="ttl-secondary cW non">アイティ人事に関する<br class="sp-only">お問合せ・お見積り</h2>
+      <h3 class="lead">エンジニア採用に関するお悩みから採用業務効率化のご相談まで、お気軽にご相談ください。</h3>
+      <a href="/contact/" class="more bgG">ご相談・お見積り</a>
+      <div class="flex jcC gap20 aiC inquiry__tel">
+        <a href="tel:0528554794" class="tel">052-855-4794</a>
+        <span>（平日：09:30～18:30）</span>
+      </div>
+      <summary class="flex aiC inquiry__box">
+        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
+        <div class="flex inquiry__box--btn">
+          <a href="/catalog/" class="more">サービス資料</a>
+          <a href="/whitepaper/" class="more">お役立ち資料</a>
+        </div>
+      </summary>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

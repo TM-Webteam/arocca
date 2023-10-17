@@ -1,0 +1,169 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="case">
+
+  <section class="hero03">
+    <div class="containers core">
+      <div class="hero03__box">
+        <h1 class="ttl-primary-lower">実績・事例</h1>
+        <div class="lead">アイティ人事は多くの企業様に選ばれています。</div>
+        <div class="speech"><span class="cW">採用業務全般をサポートいたします。</span></div>
+        <a href="/contact/" class="more bgG">お問合せ・ご相談はこちら</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reason02">
+    <div class="containers">
+      <h2 class="ttl-secondary">アイティ人事は多くの企業様に<br class="sp-only">選ばれています。</h2>
+      <ul class="flex jcC item">
+        <li class="item__box">
+          <h3 class="item__box--ttl">RPO導入企業数</h3>
+          <div class="item__box--txt"><span>12</span>　社</div>
+        </li>
+        <li class="item__box">
+          <h3 class="item__box--ttl">エンジニア採用成功人数</h3>
+          <div class="item__box--txt"><span>14</span>　名</div>
+        </li>
+        <li class="item__box">
+          <h3 class="item__box--ttl">エンジニアに強い媒体の取扱数</h3>
+          <div class="item__box--txt"><span>5</span>　媒体</div>
+        </li>
+      </ul>
+      <a href="/case/" class="more">実績・事例を見る</a>
+    </div>
+  </section>
+
+  <section class="voice">
+    <div class="containers">
+      <h2 class="ttl-secondary">お客様の声</h2>
+
+      <div class="flex aiC voice__box">
+        <figure class="voice__box--img">
+          <img src="/assets/img/case/img-voice01.jpg" alt="弊社の採用担当として色々動いてくれます。" class="avatar">
+          <figcaption class="position">ソフトウェア<br>従業員数：180名</figcaption>
+          <span class="tag">アイティ人事</span>
+        </figure>
+        <dl class="voice__box--cmt">
+          <dt><h3>弊社の採用担当として色々動いてくれます。</h3></dt>
+          <dd>以前にも中途採用はしていましたが年間1人採用できれば良い方で他の採用方法も模索していた中、ア・ロッカさんの採用支援サービスの事を知りその日のうちに無料相談しました。<br>さすがアイティと謳っているだけあり、最新のスキル事情も詳しく費用面も明確で弊社としても採用ノウハウも蓄積できるメリットもあり、これなら弊社の人事部として長くお付き合いできると判断しました。</dd>
+        </dl>
+      </div>
+
+      <div class="flex aiC sp-reverse voice__box">
+        <dl class="voice__box--cmt v2">
+          <dt><h3>リソース不足で媒体運用ができないという失敗パターンから脱出できました。</h3></dt>
+          <dd>説明を聞いて1番良いと思ったのは例えばスカウトだけを依頼したいなどサービスのカスタマイズが可能な点でコストを最小限で運用を継続するというテーマでア・ロッカさんにはスカウトから面接の段取りをのみお願いし、その他は自社で担当分け行い運用しています。<br>弊社が苦手なところをア・ロッカさんにお願いすることにより採用の仕組みに関しても改めて見直すきっかけを頂いた上に採用もコンスタントにできています。</dd>
+        </dl>
+        <figure class="voice__box--img">
+          <img src="/assets/img/case/img-voice02.jpg" alt="リソース不足で媒体運用ができないという失敗パターンから脱出できました。" class="avatar">
+          <figcaption class="position">ソフトウェア<br>従業員数：15名</figcaption>
+          <span class="tag">アイティ人事</span>
+        </figure>
+      </div>
+
+      <div class="flex aiC voice__box">
+        <figure class="voice__box--img">
+          <img src="/assets/img/case/img-voice03.jpg" alt="私の仕事は面接と判断する事だけです！" class="avatar">
+          <figcaption class="position">ソフトウェア<br>従業員数：80名</figcaption>
+          <span class="tag">アイティ人事</span>
+        </figure>
+        <dl class="voice__box--cmt">
+          <dt><h3>私の仕事は面接と判断する事だけです！</h3></dt>
+          <dd>私の本来の仕事であるプロジェクトマネジメント業務は全く支障なく遂行できています。採用に関する実作業は何もしていません、アイティ人事に全てお任せしていますね。<br>しいて言えば採用面接が多くなっているので時間配分は苦労していますが嬉しい悲鳴です。（笑）<br>会社の採用ノウハウ蓄積も必要なのでプランもカスタマイズして少しずつアイティ人事のノウハウも吸収していきます。</dd>
+        </dl>
+      </div>
+
+      <div class="flex aiC sp-reverse voice__box">
+        <dl class="voice__box--cmt v2">
+          <dt><h3>オンラインで採用ができちゃうんですね。</h3></dt>
+          <dd>実はア・ロッカさんのアイティ人事は個人的に代表の藤原さんと面識がありまして、サービスについて説明を受けた際に3つの点で良いと思いました。<br>①ソフトウェア業界を知っている<br>②スカウトの独自ノウハウに共感できた<br>③月額制であること<br>これなら採用できるのではと思い大阪支社独自の施策としてアイティ人事を活用しています。<br>採用担当者を雇うより安価に採用コンサルと採用アウトソーシングを雇うイメージですね。<br>ア・ロッカさんとは大阪と名古屋でロケーションも離れているので多少心配はしましたがオンラインでの運用が確率されていましたので1日目でその心配は吹き飛びました（笑）</dd>
+        </dl>
+        <figure class="voice__box--img">
+          <img src="/assets/img/case/img-voice04.jpg" alt="オンラインで採用ができちゃうんですね。" class="avatar">
+          <figcaption class="position">ソフトウェア<br>従業員数：1,300名</figcaption>
+          <span class="tag">アイティ人事</span>
+        </figure>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="material">
+    <div class="containers">
+      <div class="flex aiC gap30 desc">
+        <figure class="desc__img"><img src="/assets/img/common/img-wp.png" alt="エンジニア採用特化RPO「アイティ人事」"></figure>
+        <summary class="desc__box">
+          <h3 class="desc__box--sub">詳細・料金が3分で分かる！</h3>
+          <h2 class="desc__box--ttl">エンジニア採用特化RPO「アイティ人事」</h2>
+          <a href="/catalog/" class="more bgG">サービス資料をダウンロード</a>
+        </summary>
+      </div>
+    </div>
+  </section>
+
+  <section class="element">
+    <div class="containers">
+      <h2 class="ttl-secondary rack"><small>選ばれる理由</small>採用活動作業を効率化することで本来の業務に集中でき、<br>優秀な人材へのアプローチ、欲しい人材獲得へ繋がります。</h2>
+      <ul class="flex gap30 item">
+        <li class="item__box">
+          <div class="item__box--num core">1</div>
+          <h3 class="item__box--ttl">「採用戦略」から<br>トータルサポート</h3>
+          <figure class="item__box--img"><img src="/assets/img/common/img-element01.jpg" alt="「採用戦略」からトータルサポート"></figure>
+        </li>
+        <li class="item__box">
+          <div class="item__box--num core">2</div>
+          <h3 class="item__box--ttl">採用担当者の手間を<br>削減できます！</h3>
+          <figure class="item__box--img"><img src="/assets/img/common/img-element02.jpg" alt="採用担当者の手間を削減できます！"></figure>
+        </li>
+        <li class="item__box">
+          <div class="item__box--num core">3</div>
+          <h3 class="item__box--ttl">狙ったターゲットに<br>確実に訴求！</h3>
+          <figure class="item__box--img"><img src="/assets/img/common/img-element03.jpg" alt="狙ったターゲットに確実に訴求！"></figure>
+        </li>
+      </ul>
+      <a href="/strength/" class="more">詳しくはこちら</a>
+    </div>
+  </section>
+
+  <section class="inquiry">
+    <div class="containers">
+      <h2 class="ttl-secondary cW non">アイティ人事に関する<br class="sp-only">お問合せ・お見積り</h2>
+      <h3 class="lead">エンジニア採用に関するお悩みから採用業務効率化のご相談まで、お気軽にご相談ください。</h3>
+      <a href="/contact/" class="more bgG">ご相談・お見積り</a>
+      <div class="flex jcC gap20 aiC inquiry__tel">
+        <a href="tel:0528554794" class="tel">052-855-4794</a>
+        <span>（平日：09:30～18:30）</span>
+      </div>
+      <summary class="flex aiC inquiry__box">
+        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
+        <div class="flex inquiry__box--btn">
+          <a href="/catalog/" class="more">サービス資料</a>
+          <a href="/whitepaper/" class="more">お役立ち資料</a>
+        </div>
+      </summary>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

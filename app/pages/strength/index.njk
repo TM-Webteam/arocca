@@ -1,0 +1,109 @@
+{% extends "layout/default.njk" %}
+
+{# Custom SEO tags, leave blank to apply the default values #}
+{% set title = "" %}
+{% set description = "" %}
+{% set keywords = "" %}
+
+{# Page settings and also body class #}
+{% set page = "" %}
+
+{# Custom tags before </head> #}
+{% block customHead %}
+{% endblock %}
+
+{# Custom tags before </body> #}
+{% block customJs %}  
+{% endblock %}
+
+{# Main content #}
+{% block content %}
+
+<main class="strength">
+
+  <section class="hero03">
+    <div class="containers core">
+      <div class="hero03__box">
+        <h1 class="ttl-primary-lower">ア・ロッカが選ばれる3つの理由</h1>
+        <div class="lead">採用活動作業を効率化でき、コストを削減できます。<br>本来の業務に集中でき、優秀な人材へのアプローチ、欲しい人材獲得へ繋がります。</div>
+        <a href="/contact/" class="more bgG">お問合せ・ご相談はこちら</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="symmetry">
+    <div class="containers">
+
+      <div class="flex aiC sp-reverse item">
+        <summary class="item__box">
+          <div class="item__box--num">01</div>
+          <h2 class="item__box--ttl">「採用戦略」からトータルサポート</h2>
+          <h3 class="item__box--txt">採用したい人物像、会社の特徴、求人情報の打ち出し方など、採用活動全体設計から支援を行います！</h3>
+        </summary>
+        <figure class="item__img"><img src="/assets/img/strength/img-symmetry01.jpg" alt="「採用戦略」からトータルサポート"></figure>
+      </div>
+
+      <div class="flex aiC item">
+        <figure class="item__img"><img src="/assets/img/strength/img-symmetry02.jpg" alt="採用担当者の手間を削減できます！"></figure>
+        <summary class="item__box">
+          <div class="item__box--num">02</div>
+          <h2 class="item__box--ttl">採用担当者の手間を削減できます！</h2>
+          <h3 class="item__box--txt">スカウトメールの作成・送信、面接日程調整などは弊社が行うため、採用担当者の手間を削減できます！</h3>
+        </summary>
+      </div>
+
+      <div class="flex aiC sp-reverse item">
+        <summary class="item__box">
+          <div class="item__box--num">03</div>
+          <h2 class="item__box--ttl">ターゲット人材に確実に訴求！</h2>
+          <h3 class="item__box--txt">エンジニア採用に強い媒体社と連携し、フル活用して成果を最大化させることが可能です。また、最新のスキル事情や独自のロジックで質の高いスカウトメールを作成・送信することで優秀なエンジニア人材の採用に貢献いたします！</h3>
+        </summary>
+        <figure class="item__img"><img src="/assets/img/strength/img-symmetry03.jpg" alt="ターゲット人材に確実に訴求！"></figure>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="reason02">
+    <div class="containers">
+      <h2 class="ttl-secondary">アイティ人事は多くの企業様に<br class="sp-only">選ばれています。</h2>
+      <ul class="flex jcC item">
+        <li class="item__box">
+          <h3 class="item__box--ttl">RPO導入企業数</h3>
+          <div class="item__box--txt"><span>12</span>　社</div>
+        </li>
+        <li class="item__box">
+          <h3 class="item__box--ttl">エンジニア採用成功人数</h3>
+          <div class="item__box--txt"><span>14</span>　名</div>
+        </li>
+        <li class="item__box">
+          <h3 class="item__box--ttl">エンジニアに強い媒体の取扱数</h3>
+          <div class="item__box--txt"><span>5</span>　媒体</div>
+        </li>
+      </ul>
+      <a href="/case/" class="more">実績・事例を見る</a>
+    </div>
+  </section>
+
+  <section class="inquiry">
+    <div class="containers">
+      <h2 class="ttl-secondary cW non">アイティ人事に関する<br class="sp-only">お問合せ・お見積り</h2>
+      <h3 class="lead">エンジニア採用に関するお悩みから採用業務効率化のご相談まで、お気軽にご相談ください。</h3>
+      <a href="/contact/" class="more bgG">ご相談・お見積り</a>
+      <div class="flex jcC gap20 aiC inquiry__tel">
+        <a href="tel:0528554794" class="tel">052-855-4794</a>
+        <span>（平日：09:30～18:30）</span>
+      </div>
+      <summary class="flex aiC inquiry__box">
+        <div class="inquiry__box--txt">サービス資料やお役立ち資料を<br class="sp-only">ご希望の方はこちら</div>
+        <div class="flex inquiry__box--btn">
+          <a href="/catalog/" class="more">サービス資料</a>
+          <a href="/whitepaper/" class="more">お役立ち資料</a>
+        </div>
+      </summary>
+    </div>
+  </section>
+
+</main>
+
+{% endblock %}

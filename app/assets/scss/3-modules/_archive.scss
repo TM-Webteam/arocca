@@ -1,0 +1,226 @@
+/*
+  ----------------
+  archive
+  ----------------
+*/
+
+// 最新の2件のみ表示
+.latest {
+  background-image: url("../img/column/bg-cube-l.png"), url("../img/column/bg-cube-r.png");
+	background-position: top left, top right;
+	background-size: 20% auto, 20% auto;
+	background-repeat: no-repeat, no-repeat;
+  background-color: #D4E8F7;
+  
+  .ttl-secondary.non {
+    text-align: center;
+  }
+
+  .item {
+    padding: 30px;
+    background: #fff;
+    width: calc(100% / 2 - 20px);
+    // box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    position: relative;
+    @media #{$sp} {
+      width: 100%;
+      padding: 20px;
+    }
+    &:hover {
+      opacity: 1;
+      .item__ttl,
+      .item__box--txt {
+        color: #1C83D1;
+      }
+    }
+    
+    &:not(:last-child) {
+      @media #{$sp} {
+        margin-bottom: 20px;
+      }
+    }
+    &__ttl {
+      width: 100%;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      transition: all .3s;
+      @media #{$sp} {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+    &__img {
+      width: calc(100% / 2 - 15px);
+      @media #{$sp} {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+      }
+    }
+    &__box {
+      width: calc(100% / 2 - 15px);
+      @media #{$sp} {
+        width: 100%;
+      }
+      &--cat {
+        margin-bottom: 10px;
+      }
+      &--txt {
+        margin-bottom: 10px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        transition: all .3s;
+      }
+      &--time {
+        font-size: 14px;
+        color: rgba(0,0,0,0.5);
+        @media #{$sp} {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+// カード一覧
+.grid {
+  &::before {
+    content: "";
+    width: calc(100% / 4 - 25px);
+    order: 1;
+    height: 0;
+    @media #{$sp} {
+      width: 100%;
+    }
+  }
+  &::after {
+    content: "";
+    width: calc(100% / 4 - 25px);
+    height: 0;
+    @media #{$sp} {
+      width: 100%;
+    }
+  }
+  &__card {
+    display: block;
+    width: calc(100% / 4 - 25px);
+    @media #{$sp} {
+      width: 100%;
+    }
+    &:hover {
+      opacity: 1;
+      .grid__card--img img {
+        transform:scale(1.1,1.1);
+      }
+      .grid__card--ttl {
+        text-decoration: underline;
+      }
+    }
+    &--img {
+      overflow: hidden;
+      margin-bottom: 15px;
+      img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        transition: all .3s;
+      }
+    }
+    &--cat {
+      margin-bottom: 10px;
+    }
+    &--ttl {
+      font-weight: 700;
+      margin-bottom: 5px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+    }
+    &--time {
+      // font-size: 14px;
+      // @media #{$sp} {
+      //   font-size: 12px;
+      // }
+    }
+  }
+}
+
+// .col3 {
+//   .grid {
+//     margin-bottom: 30px;
+//     @media #{$sp} {
+//       margin-bottom: 15px;
+//     }
+//     &::before {
+//       content: "";
+//       width: calc(100% / 3 - 20px);
+//       order: 1;
+//       height: 0;
+//       @media #{$sp} {
+//         width: 100%;
+//       }
+//     }
+//     &::after {
+//       content: "";
+//       width: calc(100% / 3 - 20px);
+//       height: 0;
+//       @media #{$sp} {
+//         width: 100%;
+//       }
+//     }
+//     &__card {
+//       display: block;
+//       width: calc(100% / 3 - 20px);
+//       @media #{$sp} {
+//         width: 100%;
+//       }
+      
+//     }
+//   }
+// }
+
+.arc-news {
+
+  .containers {
+    max-width: 880px;
+  }
+  .item {
+    
+    &__box {
+      display: block;
+      padding: 30px 0;
+      border-bottom: 1px solid #DDDDDD;
+      @media #{$sp} {
+        padding: 15px 0;
+      }
+      &--date {
+        margin-bottom: 15px;
+        @media #{$sp} {
+          margin-bottom: 10px;
+        }
+      }
+      &--ttl {
+        font-size: 20px;
+        font-weight: bold;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        @media #{$sp} {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+}

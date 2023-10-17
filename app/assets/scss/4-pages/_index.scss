@@ -1,0 +1,116 @@
+/*
+  ----------------
+  TOP
+  ----------------
+*/
+
+.top {
+
+  .hero {
+    background-image: url("../img/top/bg-deco.png"), url("../img/top/bg-hero.webp");
+    background-position: 0 0, 50% 50%;
+    background-size: 330px auto, cover;
+    background-repeat: no-repeat, no-repeat;
+    color: #fff;
+    @media #{$sp} {
+      background: url("../img/top/bg-hero-sp.webp") 50% 0 / 100% auto no-repeat #1C83D1;
+      text-align: center;
+    }
+    .containers {
+      @media #{$sp} {
+        padding: 200px 15px 35px;
+      }
+    }
+    &__sub {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      @media #{$sp} {
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 1.8;
+      }
+    }
+    &__lead {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 60px;
+      @media #{$sp} {
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+    }
+    &__btn {
+      .more {
+        width: 400px;
+        height: 80px;
+        max-width: none;
+        font-size: 16px;
+        margin: 0;
+        @media #{$sp} {
+          width: 100%;
+          height: auto;
+          font-size: 14px;
+          margin: 0 auto;
+        }
+        &.core {
+          margin-bottom: 25px;
+          @media #{$sp} {
+            margin-bottom: 0;
+            &:not(:last-child) {
+              margin-bottom: 50px;
+            }
+          }
+        }
+      }
+      .ctabtn {
+        margin: 0 0 0 15px;
+        @media #{$sp} {
+          margin: 0 auto;
+          width: 100%;
+        }
+        .more {
+          font-size: 20px;
+          @media #{$sp} {
+            font-size: 14px;
+          }
+          &:hover {
+            color: #19232d;
+            background: #fff;
+            &:before {
+              border-top: 3px solid #19232d;
+              border-right: 3px solid #19232d;
+            }
+            .balloon__txt {
+              background: #19232d;
+              color: #fff;
+              border: 1px solid #19232d;
+              &::before,&::after {
+                border-color: #19232d rgba(0,0,0,0) rgba(0,0,0,0);
+              }
+            }
+          }
+        }
+      } 
+    }
+  }
+
+  .slider {
+    .containers-full {
+      @media #{$sp} {
+        padding: 35px 0;
+      }
+      .more {
+        margin-top: 60px;
+        @media #{$sp} {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+
+  .card-type5 .card {
+    margin-bottom: 0;
+}
+
+}
