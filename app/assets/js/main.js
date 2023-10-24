@@ -141,6 +141,19 @@ $(document).ready(function() {
   });
 });
 
+//--------------------------------------
+//　wp-slick02
+//--------------------------------------
+
+$(document).ready(function() {
+  $('#wp-slick02').slick({
+    arrows: true,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  });
+});
+
 
 
 //--------------------------------------
