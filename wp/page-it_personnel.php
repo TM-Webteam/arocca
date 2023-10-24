@@ -5,8 +5,8 @@
   <section class="hero-lower core">
     <div class="containers">
       <div class="hero-lower__box">
-        <div class="hero-lower__box--sub">エンジニア採用における、"ダイレクトリクルーティング"手法に関する<br>ご支援をさせていただきます。</div>
-        <h1 class="ttl-primary">ITエンジニア採用支援サービス<br>「アイティ人事」</h1>
+        <div class="hero-lower__box--sub">ITエンジニア採用業務における"面接以外"の業務をお任せいただけます！</div>
+        <h1 class="ttl-primary">ITエンジニア採用専門<br>採用代行/RPOサービス<br>「アイティ人事」</h1>
         <ul class="flex jcC gap20 hero-lower__box--effect">
           <li class="core">ダイレクト<br>リクルーティング支援</li>
           <li class="core">採用活動<br>アドバイス</li>
@@ -36,11 +36,11 @@
 
   <section id="service" class="sec01 sec-bt">
     <div class="containers">
-      <h2 class="ttl-secondary rack"><small>アイティ人事とは</small>「唯一無二の人事をアイティに」</h2>
+      <h2 class="ttl-secondary rack"><small>アイティ人事とは</small>「"合否以外"」のほぼ全ての採用業務を代行できる<br class="pc-only">採用代行/RPOサービスです</h2>
       <div class="flex aiC sp-reverse">
         <dl class="sec01__box">
-          <dt><h3>自社エンジニア社員採用において培ったノウハウを活用し、エンジニア採用に有効である、"ダイレクトリ クルーティング"のご支援や、エンジニア採用に関するお悩みを解決するサービスです。</h3></dt>
-          <dd>アイティ人事はIT 企業に専門特化した「採用プロ集団」です。<br>企業の方には合否など判断することのみお願いしております。<br>IT企業のことも理解し、かつエンジニアの視点も持っている採用のプロに依頼することが可能です。</dd>
+          <dt><h3>"ITエンジニア採用業務領域"に専門特化</h3></dt>
+          <dd>スタートアップの企業様や成長中の企業様に向けた、ダイレクトリクルーティングの支援サービスとなります。<br><br>採用戦略・採用計画の策定、求人原稿・スカウト文章の作成、候補者のピックアップ、スカウト配信、面接日程調整、内定者フォロー、数値分析などの時間や手間のかかるほぼすべての採用業務を代行するサービスであり、お客様には"面接"・"合否などを判断することのみお願いしております。</dd>
         </dl>
         <figure class="sec01__img"><img src="<?php echo assets_path() ?>img/it_personnel/img01.jpg" alt="自社エンジニア社員採用において培ったノウハウを活用し、エンジニア採用に有効である、”ダイレクトリクルーティング”のご支援や、エンジニア採用に関するお悩みを解決するサービスです。"></figure>
       </div>
@@ -49,53 +49,53 @@
 
   <section id="features" class="card-type1 sec-bt">
     <div class="containers">
-      <h2 class="ttl-secondary rack"><small>特長と支援内容</small>ITエンジニア採用領域に専門・<br>特化した採用支援サービスをご提供しております。</h2>
+      <h2 class="ttl-secondary rack"><small>特長と支援内容</small>ITエンジニア採用領域に専門特化した採用代行/RPOサービスを<br class="pc-only">ご提供しております。</h2>
       <ul class="flex gap30 card">
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img02.svg" alt="エンジニア採用に強い”ダイレクトリクルーティング手法”に特化"></figure>
-          <h3 class="card__box--ttl">エンジニア採用に強い<br>"ダイレクトリクルーティング手法"に特化</h3>
-          <div class="card__box--txt">弊社もIT企業であり、エンジニア社員採用において培ったノウハウを活用し、スカウト文面の構築や、返信率の向上を図り、エンジニア採用活動をご支援いたします。</div>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img02.svg" alt="採用戦略から内定者フォローまで採用業務全体をご支援"></figure>
+          <h3 class="card__box--ttl">採用戦略から<br>内定者フォローまで<br>採用業務全体をご支援</h3>
+          <div class="card__box--txt">タスクごとの業務指示を行う必要がなく、ダイレクトリクルーティング手法に関する”面接”業務以外のほぼすべてを代行することで、面接のみを行えば良い状態のフローの構築が可能です。また、当社では内定者フォローまで代行が可能です。</div>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img03.svg" alt="エンジニア採用にかかる時間をアウトソーシング"></figure>
-          <h3 class="card__box--ttl">エンジニア採用にかかる時間を<br>アウトソーシング</h3>
-          <div class="card__box--txt">エンジニア採用にかかる時間を大幅に削減し、採用活動の効率化を図ります。<span class="note">※1媒体あたりのダイレクトリクルーティングにかかる工数時間（100名送信仮定：約35時間）</span></div>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img03.svg" alt="独自ノウハウを活用した求人原稿の作成 スカウト文章の作成"></figure>
+          <h3 class="card__box--ttl">独自ノウハウを活用した<br>求人原稿の作成<br>スカウト文章の作成</h3>
+          <div class="card__box--txt">人材紹介サービスや求人広告では応募者からの応募を待つだけの運用となり、ミスマッチも多く発生しますが、当社SES事業部で培った知見および、エンジニア社員採用活動にて培ったノウハウを活用し、「面接到達率」の向上施策を実施し、ミスマッチの軽減をすることが可能です。</div>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img04.svg" alt="エンジニア採用にかかる年間採用コストの低減"></figure>
-          <h3 class="card__box--ttl">エンジニア採用にかかる<br>年間採用コストの低減</h3>
-          <div class="card__box--txt">ダイレクトリクルーティング手法にて採用活動を効率的に運用することにより、人材紹介などで採用するよりもミスマッチを防ぎつつ、年間採用コストを低減させることが可能です。</div>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img04.svg" alt="柔軟なサービス わかりやすい料金プラン"></figure>
+          <h3 class="card__box--ttl">柔軟なサービス<br>わかりやすい料金プラン</h3>
+          <div class="card__box--txt">普段利用されている採用管理システムに合わせた運用も可能です。ご依頼を、全体を通しての伴走型、一部の業務依頼のどちらの場合も承っております。また、「スカウト通数課金型」を採用しておりますので、月々の料金も把握しやすくなっております。</div>
         </li>
       </ul>
       <ul class="flex aiC gap30 work">
-        <li>媒体・手法の提案</li>
+        <li>エンジニア採用に強い<br class="pc-only">媒体の提案</li>
         <li>応募者対応<br class="pc-only">（内定後フォロー含む）</li>
         <li>独自スカウトメール施策</li>
         <li>面接など日程調整の代行</li>
-        <li>エンジニア採用ノウハウの蓄積</li>
-        <li>適時オンラインによる<br class="pc-only">情報共有MTG</li>
+        <li>求人原稿のカスタマイズ施策</li>
+        <li>月1回オンラインによる<br class="pc-only">情報共有MTG</li>
       </ul>
     </div>
   </section>
 
   <section id="merit" class="card-type1 v2 sec-bt">
     <div class="containers">
-      <h2 class="ttl-secondary rack"><small>導入メリット</small>エンジニア採用業務における、<br>“合否以外”のすべてをお任せいただけます！</h2>
+      <h2 class="ttl-secondary rack"><small>導入メリット</small>ITエンジニア採用業務における、<br>"合否以外"のほぼ全ての業務をお任せいただけます！</h2>
       <ul class="flex gap30 card">
         <li class="card__box">
-          <h3 class="card__box--ttl">採用フローの確立の<br>ご支援が可能</h3>
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img02.jpg" alt="採用フローの確立のご支援が可能"></figure>
-          <div class="card__box--txt">ダイレクトリクルーティングを用いての採用活動は、中長期的な取り組みが必要となり、工数が多くなる傾向があります。弊社のサービスを導入することにより、工数の削減が可能です。</div>
+          <h3 class="card__box--ttl">「採用戦略」から<br>トータルサポート</h3>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img02.jpg" alt="「採用戦略」からトータルサポート"></figure>
+          <div class="card__box--txt">採用したい人物像、会社の特徴、求人情報の打ち出し方など、採用活動全体設計から支援を行います。</div>
         </li>
         <li class="card__box">
-          <h3 class="card__box--ttl">エンジニア採用ノウハウの<br>蓄積が可能</h3>
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img03.jpg" alt="エンジニア採用ノウハウの蓄積が可能"></figure>
-          <div class="card__box--txt">ダイレクトリクルーティングを用いての採用活動は、採用ご担当者のスキルや経験によって成果が依存してしまう傾向にあります。弊社サービスを導入することにより、確立されたロジックを用いての採用活動が可能です。</div>
+          <h3 class="card__box--ttl">採用担当者の<br>手間を削減</h3>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img03.jpg" alt="採用担当者の手間を削減"></figure>
+          <div class="card__box--txt">求人原稿・スカウトメールの作成および送信、面接日程調整などは当社が行うため、採用担当者の手間を削減可能です。</div>
         </li>
         <li class="card__box">
-          <h3 class="card__box--ttl">エンジニア採用コストの<br>低減が可能</h3>
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img04.jpg" alt="エンジニア採用コストの低減が可能"></figure>
-          <div class="card__box--txt">ダイレクトリクルーティングを用いての採用活動の費用感として、「媒体利用料」と「成果報酬」が一般的ですが、人材紹介サービスの成果報酬と比較して、年間の採用コストを低減することが可能です。</div>
+          <h3 class="card__box--ttl">狙ったターゲットに<br>確実に訴求</h3>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img04.jpg" alt="狙ったターゲットに確実に訴求"></figure>
+          <div class="card__box--txt">当社SES事業部で培ったノウハウを活用することで、質の高い求人原稿・スカウトメールを作成、送信し、欲しい人材の採用に貢献します。</div>
         </li>
       </ul>
     </div>
@@ -175,7 +175,7 @@
 
   <section class="planning">
     <div class="containers">
-      <h2 class="ttl-secondary rack"><small>プラン</small>貴社の課題感や規模感に合わせて<br class="sp-only">柔軟に対応可能です</h2>
+      <h2 class="ttl-secondary rack"><small>料金・プラン</small>貴社の課題感や規模感に合わせて<br class="sp-only">柔軟に対応可能です</h2>
       <div class="lead">いずれのプランも最低契約期間「3ヶ月」とさせていただいております。</div>
       <ul class="flex gap30 card">
         <li class="card__wrap">
@@ -216,15 +216,23 @@
       </ul>
       <div class="note">※税抜き価格となっております。<br>※複数媒体運用など、工数が多く見込まれる場合は別途お見積りさせていただきます。<br>※面接・カジュアル面談の対応をご希望の場合はご相談ください。<br>※新卒の対応については別途ご相談となります。</div>
       <div class="ctabtn">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact/" class="more bgG core">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/it_personnel/" class="more bgG core">
           <div class="balloon"><span class="balloon__txt">貴社に最適なプランをご提案します</span></div>
-          ご相談・お見積り
+          詳しくはこちら
         </a>
       </div>
     </div>
   </section>
 
   <?php get_template_part( 'template-parts/element' ); ?>
+
+  <section class="reason02">
+    <div class="containers">
+      <h2 class="ttl-secondary">導入の流れ</h2>
+      <figure class="img"><img src="<?php echo assets_path() ?>img/common/flow.webp" alt="導入の流れ"></figure>
+      <!-- <a href="<?php echo esc_url(home_url('/')); ?>case/" class="more">実績・事例を見る</a> -->
+    </div>
+  </section>
 
   <?php get_template_part( 'template-parts/reason' ); ?>
 

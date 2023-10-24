@@ -1423,3 +1423,50 @@
     }
   }
 }
+
+
+// 導入事例
+.example {
+  .card {
+    display: block;
+    width: calc(100% / 2 - 20px);
+    background: #f3f9fe;
+    padding: 30px;
+    @media #{$sp} {
+      width: 100%;
+      padding: 15px;
+    }
+    &--ttl {
+      color: #497995;
+      font-weight: bold;
+      margin-bottom: 20px;
+      overflow: hidden;
+      @media #{$sp} {
+        font-size: 16px;
+        margin-bottom: 15px;
+      }
+    }
+    &--txt {
+      font-size: 14px;
+      @media #{$sp} {
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 2em;
+        li {
+          list-style: disc;
+          .indent {
+            padding-left: 3em;
+            text-indent: -3em;
+          }
+        }
+      }
+    }
+  }
+  .flex.gap30 {
+    margin-bottom: 70px;
+    @media #{$sp} {
+      margin-bottom: 30px;
+    }
+  }
+}

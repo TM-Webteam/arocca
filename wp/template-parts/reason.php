@@ -1,21 +1,58 @@
-<section class="reason02">
+
+<section class="example">
   <div class="containers">
-    <h2 class="ttl-secondary">アイティ人事は多くの企業様に<br class="sp-only">選ばれています。</h2>
-    <ul class="flex jcC item">
-      <li class="item__box">
-        <h3 class="item__box--ttl">導入企業数</h3>
-        <div class="item__box--txt"><span>15</span>　社</div>
-      </li>
-      <li class="item__box">
-        <h3 class="item__box--ttl">エンジニア採用成功人数<span style="font-size: 0.8em;font-weight:normal;">※</span></h3>
-        <div class="item__box--txt"><span>27</span>　名</div>
-      </li>
-      <li class="item__box">
-        <h3 class="item__box--ttl">当社SES社員の採用成功人数<span style="font-size: 0.8em;font-weight:normal;">※</span></h3>
-        <div class="item__box--txt"><span>4</span>　名</div>
-        <div style="font-size: 0.8em;font-weight:normal;">※採用活動期間は全て3ヶ月間</div>
-      </li>
-    </ul>
-    <!-- <a href="<?php echo esc_url(home_url('/')); ?>case/" class="more">実績・事例を見る</a> -->
+    <h2 class="ttl-secondary">導入事例</h2>
+    <div class="flex jcC gap30">
+        <dl class="card">
+          <dt class="card--ttl">20名/IT/2021年10月～2年3月<br>支援実績：運用開始6ヶ月で7名のエンジニア採用に成功</dt>
+          <dd class="card--txt"><p>【支援内容】</p>
+            <ul>
+              <li>採用計画の策定</li>
+              <li>採用オペレーションについてヒアリング・改善・面接用フロー共有</li>
+              <li>ダイレクトリクルーティング運用（2媒体）※緊急休日対応含む<br>
+              <div class="indent">内容：書類選考・スクリーニングスカウト・応募者コミニュケーション・内定者コミュニケーション</div></li>
+              <li>エン転職・doda運用（求人原稿・募集要項作成）</li>
+              <li>エージェントコントロール</li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="card">
+          <dt class="card--ttl">9名/IT/2022年5月～2022年10月<br>支援実績：運用開始6ヶ月で8名のエンジニア採用に成功</dt>
+          <dd class="card--txt"><p>【支援内容】</p>
+            <ul>
+              <li>採用計画の策定</li>
+              <li>採用オペレーションについてヒアリング・改善・面接用フロー共有</li>
+              <li>ダイレクトリクルーティング運用（2媒体）※緊急休日対応含む<br>
+              <div class="indent">内容：書類選考・スクリーニングスカウト・応募者コミニュケーション・内定者コミュニケーション</div></li>
+              <li>マイナビ転職・エン転職・リクナビ運用（求人原稿・募集要項作成）</li>
+              <li>エージェントコントロール</li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="card">
+          <dt class="card--ttl">370名/IT/2022年3月～2022年6月<br>支援実績：運用開始4ヶ月で6名のエンジニア採用に成功</dt>
+          <dd class="card--txt"><p>【支援内容】</p>
+            <ul>
+              <li>採用計画の策定（獲得人数の共有・エージェント提案）</li>
+              <li>採用オペレーションについてヒアリング・改善・カジュアル面接・面接用フロー共有</li>
+              <li>ダイレクトリクルーティング運用（2媒体）<br>
+              <div class="indent">内容：書類選考・スクリーニングスカウト・応募者コミニュケーション・内定者コミュニケーション</div></li>
+              <li>契約中のtype・doda引継ぎ運用（求人原稿・募集要項作成）</li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="card">
+          <dt class="card--ttl">60名/IT/2022年9月～2023年2月<br>支援実績：運用開始5ヶ月で7名のエンジニア採用に成功</dt>
+          <dd class="card--txt"><p>【支援内容】</p>
+            <ul>
+              <li>採用計画の策定</li>
+              <li>採用オペレーションについてヒアリング・改善・面接用フロー共有</li>
+              <li>ダイレクトリクルーティング運用（1媒体）<br>
+              <div class="indent">内容：書類選考・スクリーニングスカウト・応募者コミニュケーション・内定者コミニュケーション</div></li>
+              <li>doda運用（求人原稿・募集要項作成）</li>
+            </ul>
+          </dd>
+        </dl>
+    </div>
   </div>
 </section>
