@@ -72,7 +72,7 @@
     </div>
   </section>
 
-  <?php get_template_part( 'template-parts/material' ); ?>
+  <?php get_template_part( 'template-parts/material02' ); ?>
 
   <?php get_template_part( 'template-parts/element' ); ?>
 
