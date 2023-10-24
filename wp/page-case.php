@@ -15,6 +15,8 @@
 
   <?php get_template_part( 'template-parts/reason' ); ?>
 
+  <?php get_template_part( 'template-parts/material' ); ?>
+
   <section class="voice">
     <div class="containers">
       <h2 class="ttl-secondary">お客様の声</h2>

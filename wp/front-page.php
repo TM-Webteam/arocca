@@ -4,9 +4,9 @@
 
   <section class="hero">
     <div class="containers">
-      <div class="hero__sub">ITエンジニア採用支援サービス</div>
+      <div class="hero__sub">ITエンジニア採用代行/RPO</div>
       <h1 class="ttl-primary">アイティ人事</h1>
-      <div class="hero__lead">弊社のエンジニア採用において培ったノウハウを活用し、<br class="pc-only">ダイレクトリクルーティング手法を用いて、<br class="pc-only">支援を行うサービスです。<br class="pc-only">また、エンジニア採用にお悩みがある企業様に対して、<br class="pc-only">採用ご担当者様と伴走し、課題を解決するサポートを<br class="pc-only">行うサービスも展開しております。</div>
+      <div class="hero__lead">ITエンジニア採用のプロ集団が<br class="pc-only">「採用戦略」・「スカウト配信代行」<br class="pc-only">などの採用業務を伴走支援いたします。</div>
       <div class="flex fS aiC hero__btn">
         <!-- <a href="<?php echo esc_url(home_url('/')); ?>concurrent_post/" class="more core">採用を兼務されているご担当者様へ</a> -->
         <div class="ctabtn">
@@ -21,7 +21,7 @@
 
   <section class="video01">
     <div class="containers">
-      <h2 class="ttl-secondary">15秒で分かるアイティ人事</h2>
+      <h2 class="ttl-secondary">１５秒でわかる！アイティ人事</h2>
       <div class="item">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/934mG51Z59I?si=hwx3TdLoCTJC39xl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
@@ -32,19 +32,19 @@
 
   <section class="card-type5">
     <div class="containers">
-      <h2 class="ttl-secondary">以下のようなニーズ・課題を持つ<br class="sp-only">企業様に活用されています。</h2>
+      <h2 class="ttl-secondary">以下の課題・ニーズを持つ企業様に<br class="sp-only">”アイティ人事”は導入されています。</h2>
       <ul class="flex gap30 card">
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type5-1.jpg" alt="ダイレクトリクルーティングでの返信率が上がらない"></figure>
-          <h3 class="card__box--ttl core">ダイレクトリクルーティングでの<br>返信率が上がらない</h3>
+          <h3 class="card__box--ttl core">採用業務を実行するリソース不足</h3>
         </li>
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type5-2.jpg" alt="エンジニア採用に関するノウハウが不足している"></figure>
-          <h3 class="card__box--ttl core">エンジニア採用に関する<br>ノウハウが不足している</h3>
+          <h3 class="card__box--ttl core">人材紹介サービスから紹介が減少</h3>
         </li>
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type5-3.jpg" alt="採用業務の工数（時間）削減＆年間採用コストを低減したい"></figure>
-          <h3 class="card__box--ttl core">採用業務の工数（時間）削減＆<br>年間採用コストを低減したい</h3>
+          <h3 class="card__box--ttl core">採用代行/RPOで<br>効果が向上するか心配</h3>
         </li>
       </ul>
       <!-- <a href="<?php echo esc_url(home_url('/')); ?>concurrent_post/" class="more">採用を兼務されているご担当者様へ</a> -->

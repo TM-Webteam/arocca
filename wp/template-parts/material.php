@@ -8,7 +8,7 @@
       </div>
       <summary class="desc__box">
         <h3 class="desc__box--sub"><span class="marker">詳細・料金が3分で分かる！</span></h3>
-        <h2 class="desc__box--ttl">ITエンジニア採用支援サービス<br>「アイティ人事」</h2>
+        <h2 class="desc__box--ttl">ITエンジニア採用代行/RPOサービス<br>「アイティ人事」</h2>
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/it_personnel/" class="more bgG">サービス資料をダウンロード</a>
       </summary>
     </div>
