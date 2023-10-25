@@ -6,7 +6,7 @@
     <div class="containers core">
       <div class="hero03__box">
         <h1 class="ttl-primary-lower">ア・ロッカが選ばれる3つの理由</h1>
-        <div class="lead">採用業務をアウトソーシングし、工数（時間）を削減、弊社のノウハウを活用することで<br>「ミスマッチ」を防ぎ、エンジニア採用の年間採用コストを低減することが可能です。</div>
+        <div class="lead">ITエンジニア採用領域に専門・特化しているからこその"独自ノウハウ"を活用することで<br>貴社のITエンジニア採用をご支援させていただきます。</div>
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>contact/" class="more bgG">お問合せ・ご相談はこちら</a>
       </div>
     </div>
@@ -29,7 +29,7 @@
         <summary class="item__box">
           <!--<div class="item__box--num">02</div>-->
           <h2 class="item__box--ttl">わかりやすい料金設定</h2>
-          <h3 class="item__box--txt">月額10万円～提供しており、当社ではスカウト通数課金型にてプランをご用意しております。契約期間に関しては、媒体契約期間と同じ期間を設定いただくことをオススメしております。</h3>
+          <h3 class="item__box--txt">月額10万円～提供しており、弊社ではスカウト通数課金型にてプランをご用意しております。契約期間に関しては、媒体契約期間と同じ期間を設定いただくことをオススメしております。</h3>
         </summary>
       </div>
 
@@ -37,7 +37,7 @@
         <summary class="item__box">
           <!--<div class="item__box--num">03</div>-->
           <h2 class="item__box--ttl">ITエンジニア採用のノウハウを活用</h2>
-          <h3 class="item__box--txt">当社のSES事業において培った、ITエンジニア採用の成功ノウハウを活用しながら、蓄積されたデータに基づいた分析、各施策を実行し、支援させていただきます。</h3>
+          <h3 class="item__box--txt">弊社のSES事業において培った、ITエンジニア採用の成功ノウハウを活用しながら、蓄積されたデータに基づいた分析、各施策を実行し、支援させていただきます。</h3>
         </summary>
         <figure class="item__img"><img src="<?php echo assets_path() ?>img/strength/img-symmetry03.jpg" alt="ITエンジニア採用のノウハウを活用"></figure>
       </div>
