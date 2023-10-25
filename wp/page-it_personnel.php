@@ -8,9 +8,9 @@
         <div class="hero-lower__box--sub">ITエンジニア採用業務における"面接以外"の業務をお任せいただけます！</div>
         <h1 class="ttl-primary">ITエンジニア採用専門<br>採用代行/RPOサービス<br>「アイティ人事」</h1>
         <ul class="flex jcC gap20 hero-lower__box--effect">
-          <li class="core">ダイレクト<br>リクルーティング支援</li>
-          <li class="core">採用活動<br>アドバイス</li>
-          <li class="core">アドバイス<br>＋<br>業務支援も可能</li>
+          <li class="core"><div><span class="txt-sub">採用戦略のご相談</span><br>月額<span class="txt-price">5</span>万円~</div></li>
+          <li class="core"><div><span class="txt-sub">採用代行(RPO)</span><br>月額<span class="txt-price">10</span>万円~/成功報酬なし</div></li>
+          <li class="core"><div>自社エンジニア採用の<br>実績多数</div></li>
         </ul>
         <div class="ctabtn">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/it_personnel/" class="more bgG core">
@@ -175,49 +175,23 @@
 
   <section class="planning">
     <div class="containers">
-      <h2 class="ttl-secondary rack"><small>料金・プラン</small>貴社の課題感や規模感に合わせて<br class="sp-only">柔軟に対応可能です</h2>
-      <div class="lead">いずれのプランも最低契約期間「3ヶ月」とさせていただいております。</div>
+      <h2 class="ttl-secondary rack"><small>料金・プラン</small></h2>
       <ul class="flex gap30 card">
         <li class="card__wrap">
-          <h3 class="card__wrap--ttl">エンジニア採用<br>アドバイス支援プラン</h3>
+          <h3 class="card__wrap--ttl">採用アドバイス</h3>
           <summary class="card__box">
-            <div class="card__box--ttl"><small>アドバイスのみ</small><br><span>5 </span>万円/月~</div>
-            <ul class="card__box--txt">
-              <li>スカウト文面添削</li>
-              <li>採用戦略のご相談</li>
-              <li>施策のご相談</li>
-              <li>月1回/1時間のMTG</li>
-            </ul>
+            <div class="card__box--ttl">月額5万円~</div>
           </summary>
         </li>
         <li class="card__wrap">
-          <h3 class="card__wrap--ttl">エンジニア採用ダイレクト<br>リクルーティング支援プラン</h3>
+          <h3 class="card__wrap--ttl">採用代行/RPO</h3>
           <summary class="card__box">
-            <div class="card__box--ttl"><small>業務支援のみ</small><br><span>20 </span>万円/月~</div>
-            <ul class="card__box--txt">
-              <li>データベース・媒体管理</li>
-              <li>候補者ピックアップ</li>
-              <li>スカウト運用</li>
-              <li>面接日程調整</li>
-            </ul>
-          </summary>
-        </li>
-        <li class="card__wrap">
-          <h3 class="card__wrap--ttl">エンジニア採用<br>トータル支援プラン</h3>
-          <summary class="card__box">
-            <div class="card__box--ttl"><small>アドバイス ＋ 業務支援</small><br><span>25 </span>万円/月~</div>
-            <ul class="card__box--txt">
-              <li class="non">採用アドバイス支援</li>
-              <li class="non">ダイレクトリクルーティング支援</li>
-              <li>採用戦略からトータルサポート</li>
-            </ul>
+            <div class="card__box--ttl">月額10万円~</div>
           </summary>
         </li>
       </ul>
-      <div class="note">※税抜き価格となっております。<br>※複数媒体運用など、工数が多く見込まれる場合は別途お見積りさせていただきます。<br>※面接・カジュアル面談の対応をご希望の場合はご相談ください。<br>※新卒の対応については別途ご相談となります。</div>
       <div class="ctabtn">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>catalog/it_personnel/" class="more bgG core">
-          <div class="balloon"><span class="balloon__txt">貴社に最適なプランをご提案します</span></div>
           詳しくはこちら
         </a>
       </div>

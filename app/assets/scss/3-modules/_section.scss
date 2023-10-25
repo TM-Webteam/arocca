@@ -232,14 +232,26 @@
         font-size: 18px;
         font-weight: bold;
         line-height: 1.5;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         @media #{$sp} {
           font-size: 16px;
           margin-bottom: 15px;
         }
       }
+      &--txt {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        text-align: left;
+        @media #{$sp} {
+          margin-bottom: 15px;
+        }
+      }
       &--img {
-
+        margin-bottom: 20px;
+        @media #{$sp} {
+          margin-bottom: 15px;
+        }
       }
       &:not(:last-child) {
         @media #{$sp} {

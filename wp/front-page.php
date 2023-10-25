@@ -32,7 +32,7 @@
 
   <section class="card-type5">
     <div class="containers">
-      <h2 class="ttl-secondary">以下の課題・ニーズを持つ企業様に<br class="sp-only">”アイティ人事”は導入されています。</h2>
+      <h2 class="ttl-secondary">以下の課題・ニーズを持つ企業様に<br class="sp-only">"アイティ人事"は導入されています。</h2>
       <ul class="flex gap30 card">
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type5-1.jpg" alt="ダイレクトリクルーティングでの返信率が上がらない"></figure>
@@ -53,22 +53,22 @@
 
   <section class="card-type1 bg-B">
     <div class="containers">
-      <h2 class="ttl-secondary">エンジニア採用における、"ダイレクトリクルーティング"手法に関する<br>ご支援＆エンジニア採用に関するアドバイスをさせていただきます。</h2>
+      <h2 class="ttl-secondary">ITエンジニア採用に関する"採用戦略から内定者フォロー"までご支援</h2>
       <ul class="flex gap30 card">
         <li class="card__box">
-          <h3 class="card__box--ttl">採用フローの確立の<br>ご支援が可能</h3>
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type01.jpg" alt="採用フローの確立のご支援が可能"></figure>
-          <div class="card__box--txt">ダイレクトリクルーティングを用いての採用活動は、中長期的な取り組みが必要となり、工数が多くなる傾向があります。弊社のサービスを導入することにより、工数の削減が可能です。</div>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type01.jpg" alt="採用戦略の策定・求人原稿カスタマイズ・スカウト配信・分析改善を代行可能"></figure>
+          <h3 class="card__box--ttl">採用戦略の策定・求人原稿カスタマイズ・スカウト配信・分析改善を代行可能</h3>
+          <div class="card__box--txt">ダイレクトリクルーティング手法に関する”面接”業務以外のほぼすべてを代行することで、面接のみを行えば良い状態のフローの構築が可能です。また、当社では内定者フォローまで代行が可能です。</div>
         </li>
         <li class="card__box">
-          <h3 class="card__box--ttl">エンジニア採用ノウハウの<br>蓄積が可能</h3>
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type02.jpg" alt="エンジニア採用ノウハウの蓄積が可能"></figure>
-          <div class="card__box--txt">ダイレクトリクルーティングを用いての採用活動は、採用ご担当者のスキルや経験によって成果が依存してしまう傾向にあります。弊社サービスを導入することにより、確立されたロジックを用いての採用活動が可能です。</div>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type02.jpg" alt="スカウト媒体（求人媒体）の適切な活用を行い”攻め”の手法で採用業務を行います"></figure>
+          <h3 class="card__box--ttl">スカウト媒体（求人媒体）の適切な活用を行い”攻め”の手法で採用業務を行います</h3>
+          <div class="card__box--txt">人材紹介サービスや求人広告では応募者からの応募を待つだけの運用となり、ミスマッチも多く発生しますが、欲しい人材に直接アプローチ可能な媒体を適切に運用し、欲しい人材のみ獲得することでミスマッチの軽減が可能です。</div>
         </li>
         <li class="card__box">
-          <h3 class="card__box--ttl">エンジニア採用コストの<br>低減が可能</h3>
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type03.jpg" alt="エンジニア採用コストの低減が可能"></figure>
-          <div class="card__box--txt">ダイレクトリクルーティングを用いての採用活動の費用感として、「媒体利用料」と「成果報酬」が一般的ですが、人材紹介サービスの成果報酬と比較して、年間の採用コストを低減することが可能です。</div>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type03.jpg" alt="当社エンジニア社員採用において確立されたロジックにて業務代行が可能"></figure>
+          <h3 class="card__box--ttl">当社エンジニア社員採用において確立されたロジックにて業務代行が可能</h3>
+          <div class="card__box--txt">ダイレクトリクルーティングを用いての採用活動は、採用ご担当者のスキルや経験によって成果が依存してしまう傾向にあります。当社サービスを導入することにより、確立されたロジックを用いて、適切な採用活動を行うことが可能です。</div>
         </li>
       </ul>
       <a href="<?php echo esc_url(home_url('/')); ?>it_personnel/" class="more">サービス詳細を見る</a>
