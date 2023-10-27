@@ -58,7 +58,7 @@
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type01.jpg" alt="採用戦略の策定・求人原稿カスタマイズ・スカウト配信・分析改善を代行可能"></figure>
           <h3 class="card__box--ttl">採用戦略の策定・求人原稿カスタマイズ・スカウト配信・分析改善を代行可能</h3>
-          <div class="card__box--txt">ダイレクトリクルーティング手法に関する”面接”業務以外のほぼすべてを代行することで、面接のみを行えば良い状態のフローの構築が可能です。また、当社では内定者フォローまで代行が可能です。</div>
+          <div class="card__box--txt">ダイレクトリクルーティング手法に関する”面接”業務以外のほぼすべてを代行することで、面接のみを行えば良い状態のフローの構築が可能です。また、弊社では内定者フォローまで代行が可能です。</div>
         </li>
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type02.jpg" alt="スカウト媒体（求人媒体）の適切な活用を行い”攻め”の手法で採用業務を行います"></figure>
@@ -66,9 +66,9 @@
           <div class="card__box--txt">人材紹介サービスや求人広告では応募者からの応募を待つだけの運用となり、ミスマッチも多く発生しますが、欲しい人材に直接アプローチ可能な媒体を適切に運用し、欲しい人材のみ獲得することでミスマッチの軽減が可能です。</div>
         </li>
         <li class="card__box">
-          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type03.jpg" alt="当社エンジニア社員採用において確立されたロジックにて業務代行が可能"></figure>
-          <h3 class="card__box--ttl">当社エンジニア社員採用において確立されたロジックにて業務代行が可能</h3>
-          <div class="card__box--txt">ダイレクトリクルーティングを用いての採用活動は、採用ご担当者のスキルや経験によって成果が依存してしまう傾向にあります。当社サービスを導入することにより、確立されたロジックを用いて、適切な採用活動を行うことが可能です。</div>
+          <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/top/img-card-type03.jpg" alt="弊社エンジニア社員採用において確立されたロジックにて業務代行が可能"></figure>
+          <h3 class="card__box--ttl">弊社エンジニア社員採用において確立されたロジックにて業務代行が可能</h3>
+          <div class="card__box--txt">ダイレクトリクルーティングを用いての採用活動は、採用ご担当者のスキルや経験によって成果が依存してしまう傾向にあります。弊社サービスを導入することにより、確立されたロジックを用いて、適切な採用活動を行うことが可能です。</div>
         </li>
       </ul>
       <a href="<?php echo esc_url(home_url('/')); ?>it_personnel/" class="more">サービス詳細を見る</a>
