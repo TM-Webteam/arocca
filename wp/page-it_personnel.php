@@ -54,17 +54,17 @@
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img02.svg" alt="採用戦略から内定者フォローまで採用業務全体をご支援"></figure>
           <h3 class="card__box--ttl">採用戦略から<br>内定者フォローまで<br>採用業務全体をご支援</h3>
-          <div class="card__box--txt">タスクごとの業務指示を行う必要がなく、ダイレクトリクルーティング手法に関する”面接”業務以外のほぼすべてを代行することで、面接のみを行えば良い状態のフローの構築が可能です。また、当社では内定者フォローまで代行が可能です。</div>
+          <div class="card__box--txt">タスクごとの業務指示を行う必要がなく、ダイレクトリクルーティング手法に関する”面接”業務以外のほぼすべてを代行することで、面接のみを行えば良い状態のフローの構築が可能です。また、弊社では内定者フォローまで代行が可能です。</div>
         </li>
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img03.svg" alt="独自ノウハウを活用した求人原稿の作成 スカウト文章の作成"></figure>
           <h3 class="card__box--ttl">独自ノウハウを活用した<br>求人原稿の作成<br>スカウト文章の作成</h3>
-          <div class="card__box--txt">人材紹介サービスや求人広告では応募者からの応募を待つだけの運用となり、ミスマッチも多く発生しますが、当社SES事業部で培った知見および、エンジニア社員採用活動にて培ったノウハウを活用し、「面接到達率」の向上施策を実施し、ミスマッチの軽減をすることが可能です。</div>
+          <div class="card__box--txt">人材紹介サービスや求人広告では応募者からの応募を待つだけの運用となり、ミスマッチも多く発生しますが、弊社SES事業部で培った知見および、エンジニア社員採用活動にて培ったノウハウを活用し、「スカウト返信率」の向上施策を実施し、ミスマッチの軽減をすることが可能です。</div>
         </li>
         <li class="card__box">
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img04.svg" alt="柔軟なサービス わかりやすい料金プラン"></figure>
           <h3 class="card__box--ttl">柔軟なサービス<br>わかりやすい料金プラン</h3>
-          <div class="card__box--txt">普段利用されている採用管理システムに合わせた運用も可能です。ご依頼を、全体を通しての伴走型、一部の業務依頼のどちらの場合も承っております。また、「スカウト通数課金型」を採用しておりますので、月々の料金も把握しやすくなっております。</div>
+          <div class="card__box--txt">普段利用されている採用管理システムに合わせた運用も可能です。ご依頼を、全体を通しての伴走型、一部の業務依頼のどちらの場合も承っております。また、「スカウト通数課金型」、「月額定額型」の2パターンのプランをご用意しておりますので、状況に併せてプランをご選択いただくことが可能です。</div>
         </li>
       </ul>
       <ul class="flex aiC gap30 work">
@@ -90,12 +90,12 @@
         <li class="card__box">
           <h3 class="card__box--ttl">採用担当者の<br>手間を削減</h3>
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img03.jpg" alt="採用担当者の手間を削減"></figure>
-          <div class="card__box--txt">求人原稿・スカウトメールの作成および送信、面接日程調整などは当社が行うため、採用担当者の手間を削減可能です。</div>
+          <div class="card__box--txt">求人原稿・スカウトメールの作成および送信、面接日程調整などは弊社が行うため、採用担当者の手間を削減可能です。</div>
         </li>
         <li class="card__box">
           <h3 class="card__box--ttl">狙ったターゲットに<br>確実に訴求</h3>
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/it_personnel/img04.jpg" alt="狙ったターゲットに確実に訴求"></figure>
-          <div class="card__box--txt">当社SES事業部で培ったノウハウを活用することで、質の高い求人原稿・スカウトメールを作成、送信し、欲しい人材の採用に貢献します。</div>
+          <div class="card__box--txt">弊社SES事業部で培ったノウハウを活用することで、質の高い求人原稿・スカウトメールを作成、送信し、欲しい人材の採用に貢献します。</div>
         </li>
       </ul>
     </div>

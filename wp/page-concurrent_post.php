@@ -55,7 +55,7 @@
       <div id="case-study03" class="card">
         <h2 class="card__ttl">「<span>採用代行/RPOで効果が向上するか心配</span>」<br class="sp-only">という企業様へ</h2>
         <div class="flex gap30 aiC sp-reverse card__box">
-          <div class="card__box--txt">事務的にスカウト配信を実行しているのではないかなど、アウトソーシングする際の心配ごとがあり、なかなか踏み出すこともできないという事態が発生してしまいますが、当社では「配信ターゲット以外」のスカウト送信は料金に含まれておりません。そのため、貴社の採用要件にマッチした人材の獲得のみにフォーカスして業務を代行することが可能です。</div>
+          <div class="card__box--txt">事務的にスカウト配信を実行しているのではないかなど、アウトソーシングする際の心配ごとがあり、なかなか踏み出すこともできないという事態が発生してしまいますが、弊社では「配信ターゲット以外」のスカウト送信は料金に含まれておりません。そのため、貴社の採用要件にマッチした人材の獲得のみにフォーカスして業務を代行することが可能です。</div>
           <figure class="card__box--img"><img src="<?php echo assets_path() ?>img/concurrent_post/img03.jpg" alt="“「採用代行/RPOで効果が向上するか心配」という企業様へ"></figure>
         </div>
       </div>
