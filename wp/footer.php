@@ -7,7 +7,7 @@
         <div class="nav__box--ttl">サービス</div>
         <ul class="nav__box--list">
           <li><a href="<?php echo esc_url(home_url('/')); ?>it_personnel/">アイティ人事</a></li>
-          <!-- <li><a href="<?php echo esc_url(home_url('/')); ?>manga/">マンガでわかるアイティ人事</a></li> -->
+          <li><a href="<?php echo esc_url(home_url('/')); ?>manga/">マンガでわかるアイティ人事</a></li>
         </ul>
       </div>
       <div class="nav__box">

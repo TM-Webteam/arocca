@@ -102,7 +102,7 @@ Open Graph data
         <li><a href="<?php echo esc_url(home_url('/')); ?>concurrent_post/" class="link">採用を兼務されているご担当者様へ</a></li>
         <li><a href="<?php echo esc_url(home_url('/')); ?>case/" class="link">実績・事例</a></li>
         <li><a href="<?php echo esc_url(home_url('/')); ?>strength/" class="link">選ばれる理由</a></li>
-        <li><a href="<?php echo esc_url(home_url('/')); ?>column/direct_recruiting/" class="link">ダイレクトリクルーティングとは</a></li>
+        <li><a href="<?php echo esc_url(home_url('/')); ?>manga/" class="link">マンガでわかるアイティ人事</a></li>
         <li class="parent">
           <a href="#" class="arrow disabled">お役立ち情報</a>
           <div class="mega flex pull">
@@ -114,6 +114,7 @@ Open Graph data
               </div>
               <div class="mega__box--list">
                 <a href="<?php echo esc_url(home_url('/')); ?>column/" class="ttl">お役立ちコラム</a>
+                <a href="<?php echo esc_url(home_url('/')); ?>column/direct_recruiting/" class="ttl">ダイレクトリクルーティングとは</a>
               </div>
             </div>
           </div>
@@ -129,11 +130,11 @@ Open Graph data
         <li><a href="<?php echo esc_url(home_url('/')); ?>manga/">マンガでわかるアイティ人事</a></li>
         <li><a href="<?php echo esc_url(home_url('/')); ?>case/">実績・事例</a></li>
         <li><a href="<?php echo esc_url(home_url('/')); ?>strength/">選ばれる理由</a></li>
-        <li><a href="<?php echo esc_url(home_url('/')); ?>column/direct_recruiting/">ダイレクトリクルーティングとは</a></li>
         <li><a href="#" class="disabled">お役立ち情報</a></li>
         <li class="child"><a href="<?php echo esc_url(home_url('/')); ?>whitepaper/">お役立ち資料</a></li>
         <li class="child"><a href="<?php echo esc_url(home_url('/')); ?>column/">お役立ちコラム</a></li>
         <li class="child"><a href="<?php echo esc_url(home_url('/')); ?>news/">お知らせ</a></li>
+        <li class="child"><a href="<?php echo esc_url(home_url('/')); ?>column/direct_recruiting/">ダイレクトリクルーティングとは</a></li>
         <li><a href="<?php echo esc_url(home_url('/')); ?>company/">企業情報</a></li>
       </ul>
       <ul class="aside">
